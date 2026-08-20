@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thekingdom.dev/research/schemas/v0.1/source.schema.json",
+  "title": "KINGDOM research metadata source 0.1",
+  "description": "An attributed claim about one upstream metadata source. It does not grant access or rights to linked content.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "id",
+    "name",
+    "tier",
+    "role",
+    "coverage",
+    "authority",
+    "access",
+    "freshness",
+    "rights",
+    "identifiers",
+    "officialUrls",
+    "risks"
+  ],
+  "properties": {
+    "schema": { "const": "kingdom.research-source/0.1" },
+    "id": { "$ref": "#/$defs/id" },
+    "name": { "$ref": "#/$defs/line" },
+    "tier": { "enum": ["core", "enrichment", "integrity"] },
+    "role": {
+      "enum": [
+        "pid-registry",
+        "domain-index",
+        "preprint-repository",
+        "trial-registry",
+        "research-graph",
+        "integrity-feed"
+      ]
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["geography", "disciplines", "recordTypes"],
+      "properties": {
+        "geography": { "$ref": "#/$defs/line" },
+        "disciplines": { "$ref": "#/$defs/lines" },
+        "recordTypes": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["publication", "preprint", "dataset", "software", "trial", "status-update"]
+          }
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "canonicalFor"],
+      "properties": {
+        "kind": { "enum": ["canonical", "authoritative-domain", "aggregated", "derived-integrity"] },
+        "canonicalFor": { "$ref": "#/$defs/lines" }
+      }
+    },
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "interfaces",
+        "documentationUrl",
+        "authentication",
+        "rateLimit",
+        "incremental",
+        "webhook",
+        "mvpMode"
+      ],
+      "properties": {
+        "interfaces": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": { "enum": ["rest", "oai-pmh", "daily-files", "bulk-snapshot", "changefiles"] }
+        },
+        "documentationUrl": { "$ref": "#/$defs/url" },
+        "authentication": { "enum": ["none", "api-key", "optional-free-api-key", "freemium-api-key"] },
+        "rateLimit": { "$ref": "#/$defs/line" },
+        "incremental": { "enum": ["date-filter", "cursor", "daily-files", "oai-datestamp", "changefiles"] },
+        "webhook": { "const": false },
+        "mvpMode": { "enum": ["fixture-and-explicit-poll", "fixture-only-policy-hold"] }
+      }
+    },
+    "freshness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["upstreamCadence", "expectedLag", "observedOn"],
+      "properties": {
+        "upstreamCadence": { "$ref": "#/$defs/line" },
+        "expectedLag": { "$ref": "#/$defs/line" },
+        "observedOn": { "$ref": "#/$defs/date" }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metadataClaim",
+        "redistribution",
+        "fullTextPolicy",
+        "evidenceUrl",
+        "commercialReview"
+      ],
+      "properties": {
+        "metadataClaim": { "$ref": "#/$defs/line" },
+        "redistribution": { "$ref": "#/$defs/line" },
+        "fullTextPolicy": { "const": "not-ingested" },
+        "evidenceUrl": { "$ref": "#/$defs/url" },
+        "commercialReview": { "enum": ["not-required", "recommended", "required"] }
+      }
+    },
+    "identifiers": { "$ref": "#/$defs/lines" },
+    "officialUrls": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/url" }
+    },
+    "risks": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/line" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$", "maxLength": 80 },
+    "line": { "type": "string", "minLength": 1, "maxLength": 512, "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$" },
+    "lines": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/line" }
+    },
+    "url": { "type": "string", "pattern": "^https://[^/?#@]+(?:/[^#]*)?$", "maxLength": 1024 },
+    "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+  }
+}

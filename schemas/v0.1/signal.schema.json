@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thekingdom.dev/research/schemas/v0.1/signal.schema.json",
+  "title": "KINGDOM explainable research signal 0.1",
+  "description": "A reason for human attention, never an endorsement or authority.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "id", "type", "workIds", "observedAt", "severity", "headline", "reasons", "sourceObservationIds", "watchlistId", "factors", "authorizesAction"],
+  "properties": {
+    "schema": { "const": "kingdom.research-signal/0.1" },
+    "id": { "type": "string", "pattern": "^signal:[a-z0-9-]+:[0-9a-f]{16}$" },
+    "type": { "enum": ["integrity-alert", "publication-link", "source-corroboration", "version-activity", "watchlist-match"] },
+    "workIds": { "type": "array", "minItems": 1, "maxItems": 8, "uniqueItems": true, "items": { "type": "string", "pattern": "^work:[0-9a-f]{20}$" } },
+    "observedAt": { "$ref": "#/$defs/instant" },
+    "severity": { "enum": ["info", "watch", "attention", "blocking"] },
+    "headline": { "$ref": "#/$defs/line" },
+    "reasons": { "type": "array", "minItems": 1, "maxItems": 16, "uniqueItems": true, "items": { "$ref": "#/$defs/line" } },
+    "sourceObservationIds": { "type": "array", "minItems": 1, "maxItems": 64, "uniqueItems": true, "items": { "type": "string", "pattern": "^observation:[a-z0-9-]+:[0-9a-f]{16}$" } },
+    "watchlistId": { "oneOf": [{ "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" }, { "type": "null" }] },
+    "factors": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["factor", "level", "evidence", "reason"],
+        "properties": {
+          "factor": { "enum": ["named-need-fit", "freshness", "source-authority", "review-state", "integrity", "rights-clarity"] },
+          "level": { "enum": ["high", "medium", "low", "unknown", "blocking"] },
+          "evidence": { "type": "array", "maxItems": 16, "uniqueItems": true, "items": { "$ref": "#/$defs/line" } },
+          "reason": { "$ref": "#/$defs/line" }
+        }
+      }
+    },
+    "authorizesAction": { "const": false }
+  },
+  "$defs": {
+    "line": { "type": "string", "minLength": 1, "maxLength": 1024, "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$" },
+    "instant": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema": "kingdom.research-watchlist-manifest/0.1",
+  "observedOn": "2026-08-20",
+  "rankingMode": "factor-vectors-no-scalar",
+  "watchlists": [
+    {
+      "schema": "kingdom.research-watchlist/0.1",
+      "id": "interpretable-reasoning",
+      "name": "Interpretable reasoning and J-space",
+      "need": "Understand, inspect, and test internal reasoning representations without treating a probe or explanation as ground truth.",
+      "keywords": [
+        "activation steering",
+        "causal tracing",
+        "circuit tracing",
+        "interpretable reasoning",
+        "J-space",
+        "Jacobian lens",
+        "mechanistic interpretability",
+        "representation engineering",
+        "sparse autoencoder"
+      ],
+      "languageScope": {
+        "queryLanguage": "en",
+        "multilingualExpansion": {
+          "state": "absent",
+          "reason": "No reviewed multilingual term set has been supplied; translations must not be guessed."
+        }
+      },
+      "priorityFactors": [
+        { "factor": "named-need-fit", "reason": "Expose the exact reviewed term that matched the named need." },
+        { "factor": "freshness", "reason": "Show source and update dates without treating recency as validity." },
+        { "factor": "review-state", "reason": "Distinguish preprint, peer-reviewed, and unknown review states." },
+        { "factor": "integrity", "reason": "Surface correction, withdrawal, and retraction evidence without averaging it away." }
+      ]
+    },
+    {
+      "schema": "kingdom.research-watchlist/0.1",
+      "id": "agent-security",
+      "name": "Secure information flow and agent security",
+      "need": "Reduce prompt-injection, confused-deputy, data-exfiltration, and capability-escalation risk in agent systems.",
+      "keywords": [
+        "agent security",
+        "capability security",
+        "confused deputy",
+        "data exfiltration",
+        "indirect prompt injection",
+        "information flow control",
+        "prompt injection",
+        "sandbox escape",
+        "tool poisoning"
+      ],
+      "languageScope": {
+        "queryLanguage": "en",
+        "multilingualExpansion": {
+          "state": "absent",
+          "reason": "No reviewed multilingual term set has been supplied; translations must not be guessed."
+        }
+      },
+      "priorityFactors": [
+        { "factor": "named-need-fit", "reason": "Expose the exact reviewed security term that matched." },
+        { "factor": "source-authority", "reason": "Keep canonical registry evidence separate from aggregator enrichment." },
+        { "factor": "review-state", "reason": "Security claims need visible review and replication status." },
+        { "factor": "rights-clarity", "reason": "A useful benchmark or implementation still needs explicit reuse rights." },
+        { "factor": "integrity", "reason": "Corrections or withdrawals can change the safe interpretation of a result." }
+      ]
+    },
+    {
+      "schema": "kingdom.research-watchlist/0.1",
+      "id": "language-agent-interoperability",
+      "name": "Natural-language programming and agent interoperability",
+      "need": "Develop inspectable natural-language software interfaces and interoperable agent protocols with bounded authority.",
+      "keywords": [
+        "agent interoperability",
+        "agent protocol",
+        "language-oriented programming",
+        "model context protocol",
+        "natural-language programming",
+        "semantic interface",
+        "tool interoperability",
+        "tool protocol"
+      ],
+      "languageScope": {
+        "queryLanguage": "en",
+        "multilingualExpansion": {
+          "state": "absent",
+          "reason": "No reviewed multilingual term set has been supplied; translations must not be guessed."
+        }
+      },
+      "priorityFactors": [
+        { "factor": "named-need-fit", "reason": "Expose which protocol or language-interface phrase matched." },
+        { "factor": "freshness", "reason": "Protocol work changes quickly, so dates matter without becoming a quality score." },
+        { "factor": "source-authority", "reason": "Registry metadata and graph-derived relations carry different evidentiary weight." },
+        { "factor": "rights-clarity", "reason": "A paper can be visible even when its linked protocol implementation is not reusable." }
+      ]
+    }
+  ]
+}

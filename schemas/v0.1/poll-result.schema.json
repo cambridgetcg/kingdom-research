@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thekingdom.dev/research/schemas/v0.1/poll-result.schema.json",
+  "title": "KINGDOM bounded research poll result 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "sourceId", "observedAt", "watermarkKind", "watermarkBefore", "watermarkAfter", "nextCursor", "queryProvenance", "limits", "usage", "sourceRights", "sourceProcessing", "observations", "effects", "nonClaims"],
+  "properties": {
+    "schema": { "const": "kingdom.research-poll-result/0.1" },
+    "sourceId": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+    "observedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+    "watermarkKind": { "enum": ["index-time", "created-time", "updated-time", "publication-date", "oai-datestamp", "last-update-post-date"] },
+    "watermarkBefore": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+    "watermarkAfter": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+    "nextCursor": { "oneOf": [{ "type": "string", "minLength": 1, "maxLength": 4096 }, { "type": "null" }] },
+    "queryProvenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["watchlistId", "terms", "watermark", "itemsPerPage", "cursorSupplied", "cursorReceipt", "cursorProtocol", "queryMode", "queryReceipt", "callerSuppliedQuery", "rawUrlAccepted"],
+      "properties": {
+        "watchlistId": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$" },
+        "terms": { "type": "array", "minItems": 3, "maxItems": 32, "uniqueItems": true, "items": { "type": "string", "minLength": 2, "maxLength": 96 } },
+        "watermark": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+        "itemsPerPage": { "type": "integer", "minimum": 1, "maximum": 100 },
+        "cursorSupplied": { "type": "boolean" },
+        "cursorReceipt": { "oneOf": [{ "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }, { "type": "null" }] },
+        "cursorProtocol": { "const": "kingdom-bound-continuation-v1" },
+        "queryMode": { "enum": ["reviewed-terms-index-delta", "reviewed-terms-created-delta", "reviewed-terms-publication-discovery", "reviewed-terms-submission-discovery", "reviewed-terms-update-delta", "reviewed-terms-trial-update"] },
+        "queryReceipt": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+        "callerSuppliedQuery": { "const": false },
+        "rawUrlAccepted": { "const": false }
+      }
+    },
+    "limits": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pages", "itemsPerPage", "bytesPerPage", "requestMilliseconds", "totalMilliseconds"],
+      "properties": {
+        "pages": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "itemsPerPage": { "type": "integer", "minimum": 1, "maximum": 100 },
+        "bytesPerPage": { "type": "integer", "minimum": 1, "maximum": 1048576 },
+        "requestMilliseconds": { "type": "integer", "minimum": 1, "maximum": 10000 },
+        "totalMilliseconds": { "type": "integer", "minimum": 1, "maximum": 25000 }
+      }
+    },
+    "usage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pagesFetched", "itemsReceived", "bytesReceived"],
+      "properties": {
+        "pagesFetched": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "itemsReceived": { "type": "integer", "minimum": 0, "maximum": 300 },
+        "bytesReceived": { "type": "integer", "minimum": 0, "maximum": 3145728 }
+      }
+    },
+    "sourceRights": {
+      "type": "object", "additionalProperties": false,
+      "required": ["metadataClaim", "redistribution", "fullTextPolicy", "evidenceUrl", "commercialReview"],
+      "properties": {
+        "metadataClaim": { "type": "string", "minLength": 1, "maxLength": 512 },
+        "redistribution": { "type": "string", "minLength": 1, "maxLength": 512 },
+        "fullTextPolicy": { "const": "not-ingested" },
+        "evidenceUrl": { "type": "string", "pattern": "^https://" },
+        "commercialReview": { "enum": ["not-required", "recommended", "required"] }
+      }
+    },
+    "sourceProcessing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["upstreamDataTimestamp", "modificationDescription"],
+      "properties": {
+        "upstreamDataTimestamp": { "oneOf": [{ "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" }, { "type": "null" }] },
+        "modificationDescription": { "type": "string", "minLength": 1, "maxLength": 1024 }
+      }
+    },
+    "observations": { "type": "array", "maxItems": 300, "items": { "$ref": "observation.schema.json" } },
+    "effects": {
+      "type": "object", "additionalProperties": false,
+      "required": ["networkRequests", "persistentWrites", "fullTextRequests", "artifactExecutions"],
+      "properties": {
+        "networkRequests": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "persistentWrites": { "const": 0 },
+        "fullTextRequests": { "const": 0 },
+        "artifactExecutions": { "const": 0 }
+      }
+    },
+    "nonClaims": {
+      "type": "object", "additionalProperties": false,
+      "required": ["evaluated", "adopted", "useAuthorized", "moduleCreated", "guestAdmitted"],
+      "properties": {
+        "evaluated": { "const": false }, "adopted": { "const": false },
+        "useAuthorized": { "const": false }, "moduleCreated": { "const": false },
+        "guestAdmitted": { "const": false }
+      }
+    }
+  }
+}

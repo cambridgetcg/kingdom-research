@@ -1,0 +1,38 @@
+{
+  "synthetic": true,
+  "message": {
+    "items": [
+      {
+        "DOI": "10.0000/kingdom.synthetic.notice.001",
+        "URL": "https://doi.org/10.0000/kingdom.synthetic.notice.001",
+        "title": ["Retraction notice: Mechanistic interpretability for natural-language agent reasoning"],
+        "author": [],
+        "published": { "date-parts": [[2026, 8, 20]] },
+        "indexed": { "date-time": "2026-08-20T14:30:00Z" },
+        "type": "journal-article",
+        "subtype": "retraction",
+        "language": "en",
+        "subject": ["Research Integrity"],
+        "update-to": [
+          {
+            "DOI": "10.0000/kingdom.synthetic.001",
+            "type": "retraction",
+            "source": "publisher",
+            "label": "Retraction",
+            "record-id": "publisher-synthetic-001",
+            "updated": { "date-time": "2026-08-20T14:00:00Z" }
+          },
+          {
+            "DOI": "10.0000/kingdom.synthetic.001",
+            "type": "retraction",
+            "source": "retraction-watch",
+            "label": "Retraction",
+            "record-id": 999001,
+            "updated": { "date-time": "2026-08-20T14:05:00Z" }
+          }
+        ]
+      }
+    ],
+    "next-cursor": null
+  }
+}

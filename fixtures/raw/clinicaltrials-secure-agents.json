@@ -1,0 +1,35 @@
+{
+  "synthetic": true,
+  "nextPageToken": null,
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000000",
+          "briefTitle": "Synthetic registered study of secure information flow in clinical decision agents",
+          "organization": { "fullName": "Example Clinical Research Cooperative" }
+        },
+        "statusModule": {
+          "overallStatus": "NOT_YET_RECRUITING",
+          "studyFirstPostDateStruct": { "date": "2026-08-18", "type": "ACTUAL" },
+          "studyFirstSubmitDate": "2026-08-17",
+          "lastUpdatePostDateStruct": { "date": "2026-08-20", "type": "ACTUAL" }
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": ["NA"]
+        },
+        "contactsLocationsModule": {
+          "overallOfficials": [
+            { "name": "Jordan Example", "role": "PRINCIPAL_INVESTIGATOR" }
+          ]
+        }
+      },
+      "derivedSection": {
+        "miscInfoModule": { "versionHolder": "2026-08-20" },
+        "conditionBrowseModule": { "meshes": [{ "term": "Clinical Decision Support Systems" }] }
+      },
+      "hasResults": false
+    }
+  ]
+}

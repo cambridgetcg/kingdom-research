@@ -1,0 +1,41 @@
+name: Validate Observatory
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+
+      - name: Test
+        run: npm test
+
+      - name: Validate captured-live snapshot
+        run: npm run validate
+
+      - name: Check deterministic captured-live build
+        run: npm run build:check
+
+      - name: Syntax check
+        run: npm run check
+
+      - name: Validate isolated fixture rehearsal
+        run: npm run validate:fixtures
+
+      - name: Build and check isolated fixture rehearsal
+        run: |
+          npm run build:fixtures
+          npm run build:fixtures:check

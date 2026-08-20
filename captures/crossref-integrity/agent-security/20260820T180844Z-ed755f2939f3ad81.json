@@ -1,0 +1,69 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": null,
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [],
+  "observedAt": "2026-08-20T18:08:44Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-index-delta",
+    "queryReceipt": "sha256:6685e10be523206bab5d1f3005900b51c7cc24f23bcdcedadde9989d1b2dd0eb",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent security",
+      "capability security",
+      "confused deputy",
+      "data exfiltration",
+      "indirect prompt injection",
+      "information flow control",
+      "prompt injection",
+      "sandbox escape",
+      "tool poisoning"
+    ],
+    "watchlistId": "agent-security",
+    "watermark": "2026-07-20T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "crossref-integrity",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/retraction-watch/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "The Retraction Watch database distributed by Crossref is CC0; Crossref requests citation when it is used in published work.",
+    "redistribution": "Freely reusable as CC0; preserve notice type, date, target, source, record ID, and requested citation. Linked content rights remain separate."
+  },
+  "usage": {
+    "bytesReceived": 39161,
+    "itemsReceived": 0,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-07-20T00:00:00Z",
+  "watermarkBefore": "2026-07-20T00:00:00Z",
+  "watermarkKind": "index-time"
+}

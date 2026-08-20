@@ -1,0 +1,214 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy11cGRhdGUtZGVsdGEiLCJzb3VyY2VJZCI6ImV1cm9wZS1wbWMiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6M2NjMWFjYzRhZjJlNWJkZTBkZmNmZGRjOTExYTFhNjE4Yjg5OGY3OWM2OWJjMmQ5OWM4YjNhZDZkZTY0NDY0OCIsIndhdGNobGlzdElkIjoiaW50ZXJwcmV0YWJsZS1yZWFzb25pbmciLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0xM1QwMDowMDowMFoiLCJwcm92aWRlckN1cnNvciI6IkFvSUlRSUtFNGlnMU5USTJOVGs1TUE9PSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Basu S",
+          "orcid": null
+        },
+        {
+          "name": "Patel S",
+          "orcid": null
+        },
+        {
+          "name": "Sheth P",
+          "orcid": null
+        },
+        {
+          "name": "Muralidharan B",
+          "orcid": null
+        },
+        {
+          "name": "Elamaran N",
+          "orcid": null
+        },
+        {
+          "name": "Kinra A",
+          "orcid": null
+        },
+        {
+          "name": "Batniji R.",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.1136/bmjhci-2025-101935",
+      "id": "observation:europe-pmc:37fb2684bcb2e0fc",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1136/bmjhci-2025-101935"
+        },
+        {
+          "scheme": "pmcid",
+          "value": "PMC12911724"
+        },
+        {
+          "scheme": "pmid",
+          "value": "41667212"
+        },
+        {
+          "scheme": "source",
+          "value": "europe-pmc:MED:41667212"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc by-nc",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:53Z",
+      "payloadBytes": 24642,
+      "payloadReceipt": "sha256:3248fcdfdb2729a9441d00fc499fa4ce4357adec154e3b68bddd65555c2d4842",
+      "publishedOn": "2026-02-10",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "europe-pmc",
+      "sourceRecordId": "MED:41667212",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Journal Article",
+        "research-article"
+      ],
+      "synthetic": false,
+      "title": "Mechanistic interpretability of reinforcement learning in Medicaid care coordination.",
+      "upstreamCreatedAt": "2026-02-10T00:00:00Z",
+      "upstreamUpdatedAt": "2026-08-13T00:00:00Z",
+      "version": "indexed-publication"
+    },
+    {
+      "authors": [
+        {
+          "name": "Metzger A",
+          "orcid": null
+        },
+        {
+          "name": "Patil S",
+          "orcid": null
+        },
+        {
+          "name": "Sugarmann LR",
+          "orcid": null
+        },
+        {
+          "name": "Karabacak M",
+          "orcid": null
+        },
+        {
+          "name": "Margetis K.",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.2196/81134",
+      "id": "observation:europe-pmc:5e5fc3bb812281c3",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.2196/81134"
+        },
+        {
+          "scheme": "pmcid",
+          "value": "PMC13215048"
+        },
+        {
+          "scheme": "pmid",
+          "value": "42201744"
+        },
+        {
+          "scheme": "source",
+          "value": "europe-pmc:MED:42201744"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc by",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:53Z",
+      "payloadBytes": 24642,
+      "payloadReceipt": "sha256:3248fcdfdb2729a9441d00fc499fa4ce4357adec154e3b68bddd65555c2d4842",
+      "publishedOn": "2026-05-27",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "europe-pmc",
+      "sourceRecordId": "MED:42201744",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Journal Article",
+        "research-article"
+      ],
+      "synthetic": false,
+      "title": "Application of Sparse Autoencoders to Enhance Mechanistic Interpretability of Large Language Models in Medicine.",
+      "upstreamCreatedAt": "2026-05-27T00:00:00Z",
+      "upstreamUpdatedAt": "2026-08-13T00:00:00Z",
+      "version": "indexed-publication"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:53Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-update-delta",
+    "queryReceipt": "sha256:69917ffa7d6096d0c670beadb8937a0f51a959bd70364199b8f81df5f20a2f64",
+    "rawUrlAccepted": false,
+    "terms": [
+      "activation steering",
+      "causal tracing",
+      "circuit tracing",
+      "interpretable reasoning",
+      "J-space",
+      "Jacobian lens",
+      "mechanistic interpretability",
+      "representation engineering",
+      "sparse autoencoder"
+    ],
+    "watchlistId": "interpretable-reasoning",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "europe-pmc",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "EMBL-EBI imposes no additional restriction on supplied data beyond rights held by original data owners; public queryability is not itself a reuse grant.",
+    "redistribution": "Attribute Europe PMC and EMBL-EBI, comply with original-owner rights, and accept responsibility for third-party permissions. This module republishes selected normalized metadata only and no full text."
+  },
+  "usage": {
+    "bytesReceived": 24642,
+    "itemsReceived": 2,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "updated-time"
+}

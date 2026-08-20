@@ -1,0 +1,9 @@
+name: kingdom-research
+kind: observatory
+layer: experience
+owner_sister: none
+domain: research
+state: experimental
+purpose: A bounded metadata-only observatory for current research discovery and human review.
+dependsOn: [kingdom-os]
+adopts: []

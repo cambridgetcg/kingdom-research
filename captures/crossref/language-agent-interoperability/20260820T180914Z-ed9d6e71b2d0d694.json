@@ -1,0 +1,175 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1pbmRleC1kZWx0YSIsInNvdXJjZUlkIjoiY3Jvc3NyZWYiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6Y2MwMWVhNGJiNWUxNDg0NDM0MjA0NGNmMTQyMDc2MjU3NjAyMGY5Yzg2ODBiOGIxMTQ0MDM4OGQ0OGU3M2VkMSIsIndhdGNobGlzdElkIjoibGFuZ3VhZ2UtYWdlbnQtaW50ZXJvcGVyYWJpbGl0eSIsIndhdGVybWFyayI6IjIwMjYtMDgtMDFUMDA6MDA6MDBaIn0sImhpZ2hXYXRlcm1hcmsiOiIyMDI2LTA4LTIwVDEzOjI1OjQyWiIsInByb3ZpZGVyQ3Vyc29yIjoiRG5GMVpYSjVWR2hsYmtabGRHTm9KQUFBQUFCcjhwVkpGakpMUlcwMVFuVnlWRXhMU0d4QldtcHhiek5SWVhjQUFBQUJ0azJVdVJaU1V5MW1OSGxwVmxFNGFYRlJPRzh4UkVkcWQyUlJBQUFBQWFJNWswWVdWbVZuT1d4WE9YUlVTRk5wWlVndE5EVkVkMjh4WndBQUFBQXFIM0tvRm5wSWJ5MWtkRWhqVVhWNWNWcFBhREpKZWtkTGJFRUFBQUFBSENtU3VoWnZRVmhWZVZoWFNGUnZNbXAzTFc1cmFsZ3paWEpSQUFBQUFDb2FWT3NXYWxFelJIcHBaRUZSYVV0clZtWTVkbkoyVmtwVFp3QUFBQUFyRkRlRkZtWmpjMUZEY2xCdFVtSTJVM1Z4VFMxTWFUazRZWGNBQUFBQUt4ZHQzeFpwYWt4WmVUTjFkRk00Y1ZWUFEwbDJVMVZqY0UxUkFBQUFBQ3NYYmQ0V2FXcE1XWGt6ZFhSVE9IRlZUME5KZGxOVlkzQk5VUUFBQUFBckZEZUVGbVpqYzFGRGNsQnRVbUkyVTNWeFRTMU1hVGs0WVhjQUFBQUFLYXFZdVJabloybGxRamQxZDFScmNUZHZPV3QyUzJaVlMxcG5BQUFBQUNsaGtMZ1diazFSWVVseU5FbFRkR0V6TlZSbVkwNVdhSGs1WndBQUFBQ010aXBoRmxFdGIxQk1Ta2RFVWpoSFl6QkdPSGx4VlVaNmFVRUFBQUFBYV9LVlNoWXlTMFZ0TlVKMWNsUk1TMGhzUVZwcWNXOHpVV0YzQUFBQUFJd0V6VllXZGpaWk5uTkxhR2RUVmt0b2F6STJOV1kxTVU1QmR3QUFBQUFyUHNOM0ZtVklaM2hrVkRNMlVuTmhiRjlYWW5KekxVdHNiVkVBQUFBQUtiYUc0aFpFV0U0M01qZzNURlJmVjNjNVZXdFFWM2x3VDI5QkFBQUFBQ3MtdzNZV1pVaG5lR1JVTXpaU2MyRnNYMWRpY25NdFMyeHRVUUFBQUFHZzdjNjdGa0ZvVW5sM00waFlWRFZsVDNWVldUQXRXV2QwUldjQUFBQUFLeEc2Y2haa01XWnhRWFJSVFZKVlQxSlZSRmhqV1dGaGFHcDNBQUFBQUNydGc3c1dNa3BzT1RJMFkwaFJUbmxWTkcxMmVWTXdXakZUUVFBQUFBR3ZfN2ZTRmxOMk5Ga3pUMEV6VTBoUGFtc3haVXhyUkhKV1FuY0FBQUFBSENtU3V4WnZRVmhWZVZoWFNGUnZNbXAzTFc1cmFsZ3paWEpSQUFBQUFDcnRnN3dXTWtwc09USTBZMGhSVG5sVk5HMTJlVk13V2pGVFFRQUFBQUdkckdtNUZrTlRjRUZNUVhCcVVsb3RTMk5WUjJVMVpuQnBlV2NBQUFBQnJfLTMweFpUZGpSWk0wOUJNMU5JVDJwck1XVk1hMFJ5VmtKM0FBQUFBWmQtWXlNV2RYWlNTak01YTBWVGFqSTJibkEyTjB0SlZHZFpad0FBQUFDTUJNMVhGblkyV1RaelMyaG5VMVpMYUdzeU5qVm1OVEZPUVhjQUFBQUJsRm4zTkJaVmRWTnVRMlJTZGxOaVMwVlZialkzYkdsWWNWcEJBQUFBQUFUR041Y1dTV3cwUkVKT09YcFJjRXRGVUhFNVNuWmxjMkpJWndBQUFBQUV4amVpRmtsc05FUkNUamw2VVhCTFJWQnhPVXAyWlhOaVNHY0FBQUFBakxZcVloWlJMVzlRVEVwSFJGSTRSMk13UmpoNWNWVkdlbWxCQUFBQUFhVGUwMUFXV2kxYVpVZEpOMU5SUVVkVmN6TkJjR0Y2WDJSYVVRQUFBQUFyRWJweEZtUXhabkZCZEZGTlVsVlBVbFZFV0dOWllXRm9hbmNBQUFBQnBON1RVUlphTFZwbFIwazNVMUZCUjFWek0wRndZWHBmWkZwUkFBQUFBYlpObExzV1VsTXRaalI1YVZaUk9HbHhVVGh2TVVSSGFuZGtVUT09IiwidiI6MX0",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [],
+      "canonicalUrl": "https://doi.org/10.1021/acs.jpclett.6c02004.s001",
+      "id": "observation:crossref:d67a1b4ed7547770",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1021/acs.jpclett.6c02004.s001"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": null,
+      "observedAt": "2026-08-20T18:09:14Z",
+      "payloadBytes": 5268,
+      "payloadReceipt": "sha256:25ea32ccc1ff0248af53cb4a4e7eb7855f8dc2815dbcc8103a6dbca689d3f027",
+      "publishedOn": "2026-08-20",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.1021/acs.jpclett.6c02004.s001",
+      "sourceStatus": "component",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "A Toolset-First Paradigm Based on Large Language Model and Agent via Model Context Protocol for Intelligent Computation",
+      "upstreamCreatedAt": "2026-08-20T12:35:42Z",
+      "upstreamUpdatedAt": "2026-08-20T13:25:42Z",
+      "version": "component"
+    },
+    {
+      "authors": [
+        {
+          "name": "Ashish Vishwakarma",
+          "orcid": "https://orcid.org/0009-0001-6860-7357"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.2139/ssrn.7184619",
+      "id": "observation:crossref:d6920254ad639948",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.2139/ssrn.7184619"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "https://www.uspto.gov/ip-policy/copyright-policy/copyright-basics",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:14Z",
+      "payloadBytes": 5268,
+      "payloadReceipt": "sha256:25ea32ccc1ff0248af53cb4a4e7eb7855f8dc2815dbcc8103a6dbca689d3f027",
+      "publishedOn": "2026-01-01",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.2139/ssrn.7184619",
+      "sourceStatus": "posted-content",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "Securing Federated Model Context Protocol (MCP) and Multi-Agent Supply Chains",
+      "upstreamCreatedAt": "2026-08-06T04:20:34Z",
+      "upstreamUpdatedAt": "2026-08-06T04:47:30Z",
+      "version": "posted-content"
+    },
+    {
+      "authors": [
+        {
+          "name": "Bhuvan Sai Teja Gabbita",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.62791/20494",
+      "id": "observation:crossref:ecced040bec1000c",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.62791/20494"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:14Z",
+      "payloadBytes": 5268,
+      "payloadReceipt": "sha256:25ea32ccc1ff0248af53cb4a4e7eb7855f8dc2815dbcc8103a6dbca689d3f027",
+      "publishedOn": "2025-11-12",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.62791/20494",
+      "sourceStatus": "dissertation",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "Towards secure agentic workflows: a MAESTRO-based assessment framework for Model Context Protocol and Agent-to-Agent Protocol",
+      "upstreamCreatedAt": "2025-11-12T21:28:26Z",
+      "upstreamUpdatedAt": "2026-08-18T05:59:20Z",
+      "version": "dissertation"
+    }
+  ],
+  "observedAt": "2026-08-20T18:09:14Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-index-delta",
+    "queryReceipt": "sha256:b9a6b191b2b47c7a4b17044dd391d470638dd93025742573a78b77a076f88279",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent interoperability",
+      "agent protocol",
+      "language-oriented programming",
+      "model context protocol",
+      "natural-language programming",
+      "semantic interface",
+      "tool interoperability",
+      "tool protocol"
+    ],
+    "watchlistId": "language-agent-interoperability",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "crossref",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "Most bibliographic fields are factual and openly retrievable; abstracts and some deposited fields may remain copyrighted.",
+    "redistribution": "Republish normalized facts with attribution and retain field provenance; do not assume abstracts are reusable."
+  },
+  "usage": {
+    "bytesReceived": 5268,
+    "itemsReceived": 3,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "index-time"
+}

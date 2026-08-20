@@ -1,0 +1,283 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1pbmRleC1kZWx0YSIsInNvdXJjZUlkIjoiY3Jvc3NyZWYiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6NWJjYWI4YWUyMDlkMDRhMDI1NmY2YmFkZTI5ZmQ4MmQwYzM2Njk2MTZlMDAxNTYwMzQzYmRlZDllODZiZjQxOCIsIndhdGNobGlzdElkIjoiYWdlbnQtc2VjdXJpdHkiLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0xN1QxMjoyNTowOFoiLCJwcm92aWRlckN1cnNvciI6IkRuRjFaWEo1VkdobGJrWmxkR05vSkFBQUFBQXFVSXpaRm5acmJVeEJaa3BxVVhCTFJHRkRaMHhJWTJKTFMyY0FBQUFBS2NuR0xCWk5UM1pUWHkxaFZWUnRiWEYxT1VOMlduVm9MVGQzQUFBQUFDbkp4aXNXVFU5MlUxOHRZVlZVYlcxeGRUbERkbHAxYUMwM2R3QUFBQUFxSDNLZ0ZucElieTFrZEVoalVYVjVjVnBQYURKSmVrZExiRUVBQUFBQUtaZGRleFpaWDJabFFtSjFhVkZoZFdweWJFOVlWVFpLVFZWQkFBQUFBQ29hVk9RV2FsRXpSSHBwWkVGUmFVdHJWbVk1ZG5KMlZrcFRad0FBQUFBckZEZDVGbVpqYzFGRGNsQnRVbUkyVTNWeFRTMU1hVGs0WVhjQUFBQUFLbENNMmhaMmEyMU1RV1pLYWxGd1MwUmhRMmRNU0dOaVMwdG5BQUFBQUNtcW1MY1daMmRwWlVJM2RYZFVhM0UzYnpscmRrdG1WVXRhWndBQUFBR2RyR20zRmtOVGNFRk1RWEJxVWxvdFMyTlZSMlUxWm5CcGVXY0FBQUFCb2ZzSkpoWmxSV2htYWtSTE5WUllhVVExYXpZNGNWcHNWMlJuQUFBQUFBTVUwTUFXVDFwaVNuaENjVVpUWjFNdGJHZHFTbmRIZDB4emR3QUFBQUFwMUdvVEZsSjZMVGQzUVZGT1VqSnBhRkExVkVkNUxYaDRRa0VBQUFBQUtXR1F0Ulp1VFZGaFNYSTBTVk4wWVRNMVZHWmpUbFpvZVRsbkFBQUFBQ20yaHRzV1JGaE9Oekk0TjB4VVgxZDNPVlZyVUZkNWNFOXZRUUFBQUFBREZOREJGazlhWWtwNFFuRkdVMmRUTFd4bmFrcDNSM2RNYzNjQUFBQUFLYmFHMkJaRVdFNDNNamczVEZSZlYzYzVWV3RRVjNsd1QyOUJBQUFBQUNuUi1nRVdUbWRKWWtSRVJWRlRPRTlLYUU1SGEwUTRMVEkxWndBQUFBR1lXbnhmRms1Rk5sQkJRVGt4VTNJeWVWTlROMXBET1c5dFVGRUFBQUFCbUZwOFhSWk9SVFpRUVVFNU1WTnlNbmxUVXpkYVF6bHZiVkJSQUFBQUFaY0xYWVlXVFdwa2MxUnZUbEJUTVVkUWVHRkhVVkpHTFRnd1p3QUFBQUdoLXdrbkZtVkZhR1pxUkVzMVZGaHBSRFZyTmpoeFdteFhaR2NBQUFBQm5wdkJKQlpGTlVWTE5HNDRSbE0yWlc4d1h6STVkVXBXVW05QkFBQUFBQ29mY3FFV2VraHZMV1IwU0dOUmRYbHhXazlvTWtsNlIwdHNRUUFBQUFHZW04RWpGa1UxUlVzMGJqaEdVelpsYnpCZk1qbDFTbFpTYjBFQUFBQUFLaHBVNVJacVVUTkVlbWxrUVZGcFMydFdaamwyY25aV1NsTm5BQUFBQUNuUi1nSVdUbWRKWWtSRVJWRlRPRTlLYUU1SGEwUTRMVEkxWndBQUFBQXBsQThuRmw5UGR5MWZWa28xVTBOaE4xSmhOekozVmkxb2JFRUFBQUFCbzV0NGNSWXllbTlvYkU4M2FGUk1OblpMUmpsVGJYRk5Xa2gzQUFBQUFDbVVFTkVXWDA5M0xWOVdTalZUUTJFM1VtRTNNbmRXTFdoc1FRQUFBQUdVV2Zjd0ZsVjFVMjVEWkZKMlUySkxSVlZ1Tmpkc2FWaHhXa0VBQUFBQm81dDRjQll5ZW05b2JFODNhRlJNTm5aTFJqbFRiWEZOV2toM0FBQUFBYVRlMDBnV1dpMWFaVWRKTjFOUlFVZFZjek5CY0dGNlgyUmFVUUFBQUFHaU9aTkZGbFpsWnpsc1Z6bDBWRWhUYVdWSUxUUTFSSGR2TVdjQUFBQUJwTjdUU3haYUxWcGxSMGszVTFGQlIxVnpNMEZ3WVhwZlpGcFJBQUFBQWJaTmxMRVdVbE10WmpSNWFWWlJPR2x4VVRodk1VUkhhbmRrVVE9PSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Ivan Evtimov",
+          "orcid": null
+        },
+        {
+          "name": "Arman Zharmagambetov",
+          "orcid": null
+        },
+        {
+          "name": "Aaron Grattafiori",
+          "orcid": null
+        },
+        {
+          "name": "Chuan Guo",
+          "orcid": null
+        },
+        {
+          "name": "Kamalika Chaudhuri",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.52202/085713-0666",
+      "id": "observation:crossref:ab21ffe4074b8d82",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.52202/085713-0666"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": null,
+      "observedAt": "2026-08-20T18:09:16Z",
+      "payloadBytes": 8038,
+      "payloadReceipt": "sha256:0f7f1055ed2943d2ef0e04bbd76df988e76fd528b97524d18e51de403f8f9292",
+      "publishedOn": "2025-01-01",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.52202/085713-0666",
+      "sourceStatus": "proceedings-article",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "upstreamCreatedAt": "2026-08-06T14:44:29Z",
+      "upstreamUpdatedAt": "2026-08-06T16:47:15Z",
+      "version": "proceedings-article"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sahir Maharaj",
+          "orcid": "https://orcid.org/0009-0008-7878-0138"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.2139/ssrn.7276838",
+      "id": "observation:crossref:d6ca8526a1b03056",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.2139/ssrn.7276838"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "https://creativecommons.org/licenses/by/4.0/",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:16Z",
+      "payloadBytes": 8038,
+      "payloadReceipt": "sha256:0f7f1055ed2943d2ef0e04bbd76df988e76fd528b97524d18e51de403f8f9292",
+      "publishedOn": "2026-01-01",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.2139/ssrn.7276838",
+      "sourceStatus": "posted-content",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "Measuring Indirect Prompt Injection in Autonomous Web Agents",
+      "upstreamCreatedAt": "2026-08-17T04:16:26Z",
+      "upstreamUpdatedAt": "2026-08-17T04:26:11Z",
+      "version": "posted-content"
+    },
+    {
+      "authors": [
+        {
+          "name": "Alaa Alnemari",
+          "orcid": null
+        },
+        {
+          "name": "Mashael M. Alsulami",
+          "orcid": "https://orcid.org/0000-0003-2298-8278"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.3390/electronics15163640",
+      "id": "observation:crossref:2388068f3e413d55",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.3390/electronics15163640"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "https://creativecommons.org/licenses/by/4.0/",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:16Z",
+      "payloadBytes": 8038,
+      "payloadReceipt": "sha256:0f7f1055ed2943d2ef0e04bbd76df988e76fd528b97524d18e51de403f8f9292",
+      "publishedOn": "2026-08-15",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.3390/electronics15163640",
+      "sourceStatus": "journal-article",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "DT-GenShield: A Digital Twin-Driven Runtime Security Architecture for Protecting Large Language Models Against Indirect Prompt Injection",
+      "upstreamCreatedAt": "2026-08-17T11:00:05Z",
+      "upstreamUpdatedAt": "2026-08-17T12:25:08Z",
+      "version": "journal-article"
+    },
+    {
+      "authors": [
+        {
+          "name": "Doygun Demirol",
+          "orcid": "https://orcid.org/0000-0002-3272-1078"
+        },
+        {
+          "name": "Murat Aydogan",
+          "orcid": "https://orcid.org/0000-0002-6876-6454"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.3390/app16157662",
+      "id": "observation:crossref:6febc941c6477298",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.3390/app16157662"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "https://creativecommons.org/licenses/by/4.0/",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:16Z",
+      "payloadBytes": 8038,
+      "payloadReceipt": "sha256:0f7f1055ed2943d2ef0e04bbd76df988e76fd528b97524d18e51de403f8f9292",
+      "publishedOn": "2026-08-02",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.3390/app16157662",
+      "sourceStatus": "journal-article",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "Balancing Security and Performance in LLM Agents: Spotlight-Guard, a Layered Defense Against Indirect Prompt Injection",
+      "upstreamCreatedAt": "2026-08-03T14:16:27Z",
+      "upstreamUpdatedAt": "2026-08-03T15:18:28Z",
+      "version": "journal-article"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pınar Ersoy",
+          "orcid": null
+        },
+        {
+          "name": "Mustafa Erşahin",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.1109/icecet65726.2026.11632629",
+      "id": "observation:crossref:792b9edd45cc7292",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1109/icecet65726.2026.11632629"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:16Z",
+      "payloadBytes": 8038,
+      "payloadReceipt": "sha256:0f7f1055ed2943d2ef0e04bbd76df988e76fd528b97524d18e51de403f8f9292",
+      "publishedOn": "2026-07-01",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.1109/icecet65726.2026.11632629",
+      "sourceStatus": "proceedings-article",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "Secure MCP-Based Tool-Augmented RAG for Industrial IoT Diagnostics Under Indirect Prompt Injection, Retrieval Poisoning, and Modality Outages",
+      "upstreamCreatedAt": "2026-08-12T19:13:33Z",
+      "upstreamUpdatedAt": "2026-08-13T06:28:09Z",
+      "version": "proceedings-article"
+    }
+  ],
+  "observedAt": "2026-08-20T18:09:16Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-index-delta",
+    "queryReceipt": "sha256:a019d5843cec529936f104102b8dbc5bf5ba2e340c751218fd334e46a12adf28",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent security",
+      "capability security",
+      "confused deputy",
+      "data exfiltration",
+      "indirect prompt injection",
+      "information flow control",
+      "prompt injection",
+      "sandbox escape",
+      "tool poisoning"
+    ],
+    "watchlistId": "agent-security",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "crossref",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "Most bibliographic fields are factual and openly retrievable; abstracts and some deposited fields may remain copyrighted.",
+    "redistribution": "Republish normalized facts with attribution and retain field provenance; do not assume abstracts are reusable."
+  },
+  "usage": {
+    "bytesReceived": 8038,
+    "itemsReceived": 5,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "index-time"
+}

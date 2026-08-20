@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "messages": [
+    { "status": "ok", "count": 1, "total": 1, "cursor": 0 }
+  ],
+  "collection": [
+    {
+      "doi": "10.0000/kingdom.synthetic.preprint.001",
+      "title": "Circuit tracing for natural-language biological agents",
+      "authors": "Adeyemi, K.; Chen, L.",
+      "author_corresponding": "K. Adeyemi",
+      "date": "2026-08-19",
+      "version": "2",
+      "type": "new_result",
+      "license": "cc_by",
+      "category": "bioinformatics",
+      "server": "biorxiv",
+      "published": "NA"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@kingdom/research-observatory",
+  "version": "0.1.0",
+  "description": "Bounded metadata-only research discovery observatory.",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "kingdom-research": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node ./src/cli.mjs validate --live-only",
+    "validate:fixtures": "node ./src/cli.mjs validate --fixtures-only",
+    "build": "node ./src/cli.mjs build --live-only",
+    "build:check": "node ./src/cli.mjs build --live-only --check",
+    "build:fixtures": "node ./src/cli.mjs build --fixtures-only --output .local/research-fixtures.json",
+    "build:fixtures:check": "node ./src/cli.mjs build --fixtures-only --output .local/research-fixtures.json --check",
+    "build:live": "node ./src/cli.mjs build --live-only",
+    "build:live:check": "node ./src/cli.mjs build --live-only --check",
+    "check": "node --check ./src/schema-validator.mjs && node --check ./src/adapters.mjs && node --check ./src/capture-invariants.mjs && node --check ./src/ingest.mjs && node --check ./src/live.mjs && node --check ./src/captures.mjs && node --check ./src/cli.mjs"
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1jcmVhdGVkLWRlbHRhIiwic291cmNlSWQiOiJkYXRhY2l0ZSIsInRlcm1zUmVjZWlwdCI6InNoYTI1Njo1YmNhYjhhZTIwOWQwNGEwMjU2ZjZiYWRlMjlmZDgyZDBjMzY2OTYxNmUwMDE1NjAzNDNiZGVkOWU4NmJmNDE4Iiwid2F0Y2hsaXN0SWQiOiJhZ2VudC1zZWN1cml0eSIsIndhdGVybWFyayI6IjIwMjYtMDgtMDFUMDA6MDA6MDBaIn0sImhpZ2hXYXRlcm1hcmsiOiIyMDI2LTA4LTAyVDA5OjE5OjQ3WiIsInByb3ZpZGVyQ3Vyc29yIjoiTVRjNE5UWTJNak00TnpBd01Dd3hNQzQxTWpneEwzcGxibTlrYnk0eU1UYzFOekUzT0EiLCJ2IjoxfQ",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Cidade, Irlan de Alvarenga",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21731494",
+      "id": "observation:datacite:0716c674df8147ca",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21731494"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 19032,
+      "payloadReceipt": "sha256:c4aa57a024ce29f52fb92ef62fb1f74687553b6ef91b8591639693f6d171f061",
+      "publishedOn": "2026-08-01",
+      "recordType": "publication",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T03:05:44Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21731493"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21731494",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "Knowledge Augmented Generation",
+        "agentic security",
+        "bounded autonomy",
+        "bug bounty",
+        "evidence-grounded assessments",
+        "multi-agent systems",
+        "security quality assurance"
+      ],
+      "synthetic": false,
+      "title": "The Evidence Closure Loop: Engineering a Bounded-Autonomous, Multi-Agent Security Staff for Evidence-Grounded Assessments and Bug Bounty",
+      "upstreamCreatedAt": "2026-08-01T03:05:43Z",
+      "upstreamUpdatedAt": "2026-08-01T03:05:44Z",
+      "version": "1.0"
+    },
+    {
+      "authors": [
+        {
+          "name": "Cidade, Irlan de Alvarenga",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21731493",
+      "id": "observation:datacite:da51e63e259cf7cf",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21731493"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 19032,
+      "payloadReceipt": "sha256:c4aa57a024ce29f52fb92ef62fb1f74687553b6ef91b8591639693f6d171f061",
+      "publishedOn": "2026-08-01",
+      "recordType": "publication",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T03:05:44Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21731493"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21731493",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "Knowledge Augmented Generation",
+        "agentic security",
+        "bounded autonomy",
+        "bug bounty",
+        "evidence-grounded assessments",
+        "multi-agent systems",
+        "security quality assurance"
+      ],
+      "synthetic": false,
+      "title": "The Evidence Closure Loop: Engineering a Bounded-Autonomous, Multi-Agent Security Staff for Evidence-Grounded Assessments and Bug Bounty",
+      "upstreamCreatedAt": "2026-08-01T03:05:44Z",
+      "upstreamUpdatedAt": "2026-08-01T03:05:44Z",
+      "version": "1.0"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pulastya, Prateek",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21746424",
+      "id": "observation:datacite:00f0afac1c7665c2",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21746424"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 19032,
+      "payloadReceipt": "sha256:c4aa57a024ce29f52fb92ef62fb1f74687553b6ef91b8591639693f6d171f061",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T20:21:58Z",
+          "identifier": {
+            "scheme": "source",
+            "value": "datacite:https://github.com/Prateek-Pulastya/Guardrail-As-A-Service-V2"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-supplemented-by"
+        },
+        {
+          "assertedAt": "2026-08-01T20:21:58Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21746423"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21746424",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "Aho-Corasick",
+        "DeBERTa",
+        "Evaluation Technology",
+        "Guardrails",
+        "LLM Security",
+        "Over-defense",
+        "Trust boundaries",
+        "prompt injection"
+      ],
+      "synthetic": false,
+      "title": "Trust Boundaries and the Limits of Pattern-Based Prompt Injection Detection",
+      "upstreamCreatedAt": "2026-08-01T20:21:58Z",
+      "upstreamUpdatedAt": "2026-08-01T20:21:58Z",
+      "version": "1.0.0"
+    },
+    {
+      "authors": [
+        {
+          "name": "Pulastya, Prateek",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21746423",
+      "id": "observation:datacite:6ec8c4115f9af5e7",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21746423"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 19032,
+      "payloadReceipt": "sha256:c4aa57a024ce29f52fb92ef62fb1f74687553b6ef91b8591639693f6d171f061",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T20:21:59Z",
+          "identifier": {
+            "scheme": "source",
+            "value": "datacite:https://github.com/Prateek-Pulastya/Guardrail-As-A-Service-V2"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-supplemented-by"
+        },
+        {
+          "assertedAt": "2026-08-01T20:21:59Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21746423"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21746423",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "Aho-Corasick",
+        "DeBERTa",
+        "Evaluation Technology",
+        "Guardrails",
+        "LLM Security",
+        "Over-defense",
+        "Trust boundaries",
+        "prompt injection"
+      ],
+      "synthetic": false,
+      "title": "Trust Boundaries and the Limits of Pattern-Based Prompt Injection Detection",
+      "upstreamCreatedAt": "2026-08-01T20:21:59Z",
+      "upstreamUpdatedAt": "2026-08-01T20:21:59Z",
+      "version": "1.0.0"
+    },
+    {
+      "authors": [
+        {
+          "name": "Taureka, Wellington",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21757178",
+      "id": "observation:datacite:6119662c70f05464",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21757178"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 19032,
+      "payloadReceipt": "sha256:c4aa57a024ce29f52fb92ef62fb1f74687553b6ef91b8591639693f6d171f061",
+      "publishedOn": "2026-08-02",
+      "recordType": "publication",
+      "relations": [
+        {
+          "assertedAt": "2026-08-02T09:19:48Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21739163"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-supplement-to"
+        },
+        {
+          "assertedAt": "2026-08-02T09:19:48Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21757178"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21757178",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "KV cache",
+        "PSCS",
+        "Pakheta relational conduction",
+        "activation probe",
+        "prompt injection",
+        "role confusion",
+        "semantic security",
+        "source isolation"
+      ],
+      "synthetic": false,
+      "title": "Role-Styled Prompt Injection: An Activation and KV-State Probe in a Compact Language Model",
+      "upstreamCreatedAt": "2026-08-02T09:19:47Z",
+      "upstreamUpdatedAt": "2026-08-02T09:19:48Z",
+      "version": "1.0"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:20Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-created-delta",
+    "queryReceipt": "sha256:2a76fc744ff766db8464f2e79f47aea5119ad4548d06c1dd56517f89aefda605",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent security",
+      "capability security",
+      "confused deputy",
+      "data exfiltration",
+      "indirect prompt injection",
+      "information flow control",
+      "prompt injection",
+      "sandbox escape",
+      "tool poisoning"
+    ],
+    "watchlistId": "agent-security",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "datacite",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "not-required",
+    "evidenceUrl": "https://support.datacite.org/docs/datacite-data-file-use-policy",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "DataCite DOI metadata is released under CC0.",
+    "redistribution": "Metadata can be redistributed; each linked dataset, software object, or document retains its own rights."
+  },
+  "usage": {
+    "bytesReceived": 19032,
+    "itemsReceived": 5,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "created-time"
+}

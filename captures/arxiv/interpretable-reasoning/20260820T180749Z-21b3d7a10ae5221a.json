@@ -1,0 +1,118 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1zdWJtaXNzaW9uLWRpc2NvdmVyeSIsInNvdXJjZUlkIjoiYXJ4aXYiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6M2NjMWFjYzRhZjJlNWJkZTBkZmNmZGRjOTExYTFhNjE4Yjg5OGY3OWM2OWJjMmQ5OWM4YjNhZDZkZTY0NDY0OCIsIndhdGNobGlzdElkIjoiaW50ZXJwcmV0YWJsZS1yZWFzb25pbmciLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0wNFQxMTo0OToxNloiLCJwcm92aWRlckN1cnNvciI6IjUiLCJ2IjoxfQ",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Nafis Fuad",
+          "orcid": null
+        },
+        {
+          "name": "Xiaodong Qian",
+          "orcid": null
+        },
+        {
+          "name": "Dongxiao Zhu",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://arxiv.org/abs/2608.07562",
+      "id": "observation:arxiv:bb59396c7fe27bb3",
+      "identifiers": [
+        {
+          "scheme": "arxiv",
+          "value": "2608.07562"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:49Z",
+      "payloadBytes": 13737,
+      "payloadReceipt": "sha256:11415b7c6b2e81f3092c10402772a78b7eceeca1064c817ed3c8992bce35328a",
+      "publishedOn": "2026-08-02",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "arxiv",
+      "sourceRecordId": "2608.07562",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "synthetic": false,
+      "title": "Mechanistic Interpretability-Guided Selective Fine-Tuning of Vision-Language Models for Centimeter-Level Flood Depth Estimation",
+      "upstreamCreatedAt": "2026-08-02T22:38:25Z",
+      "upstreamUpdatedAt": "2026-08-02T22:38:25Z",
+      "version": "v1"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:49Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-submission-discovery",
+    "queryReceipt": "sha256:fb619fb08a77e3bae26d174111f4515cfb43fc023bcadef434ae35d80253c133",
+    "rawUrlAccepted": false,
+    "terms": [
+      "activation steering",
+      "causal tracing",
+      "circuit tracing",
+      "interpretable reasoning",
+      "J-space",
+      "Jacobian lens",
+      "mechanistic interpretability",
+      "representation engineering",
+      "sparse autoencoder"
+    ],
+    "watchlistId": "interpretable-reasoning",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "arxiv",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://info.arxiv.org/help/api/tou.html",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "Descriptive API metadata is offered as CC0; item content remains under its submitted licence or copyright.",
+    "redistribution": "This module republishes normalized metadata and links only; it does not copy article content. Product displays should include: Thank you to arXiv for use of its open access interoperability."
+  },
+  "usage": {
+    "bytesReceived": 13737,
+    "itemsReceived": 1,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "created-time"
+}

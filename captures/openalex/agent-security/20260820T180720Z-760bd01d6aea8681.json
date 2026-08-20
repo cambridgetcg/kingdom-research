@@ -1,0 +1,160 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1wdWJsaWNhdGlvbi1kaXNjb3ZlcnkiLCJzb3VyY2VJZCI6Im9wZW5hbGV4IiwidGVybXNSZWNlaXB0Ijoic2hhMjU2OjViY2FiOGFlMjA5ZDA0YTAyNTZmNmJhZGUyOWZkODJkMGMzNjY5NjE2ZTAwMTU2MDM0M2JkZWQ5ZTg2YmY0MTgiLCJ3YXRjaGxpc3RJZCI6ImFnZW50LXNlY3VyaXR5Iiwid2F0ZXJtYXJrIjoiMjAyNi0wOC0wMVQwMDowMDowMFoifSwiaGlnaFdhdGVybWFyayI6IjIwMjYtMDgtMTVUMDA6MDA6MDBaIiwicHJvdmlkZXJDdXJzb3IiOiJJbHN4T1M0d05UQTNPRFVzSURFM09EWTNOVEl3TURBd01EQXNJQ2RvZEhSd2N6b3ZMMjl3Wlc1aGJHVjRMbTl5Wnk5WE56SXdNelk1TURjMk5pZGRJZz09IiwidiI6MX0",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Janis Keuper",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.1007/978-3-032-31335-5_9",
+      "id": "observation:openalex:c05cc5aedbbe1943",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1007/978-3-032-31335-5_9"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W4415090291"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 18085,
+      "payloadReceipt": "sha256:bcd46ae33edd77f07725cfeeffab8764c470be20ce34f846c2c501956c1be836",
+      "publishedOn": "2026-08-03",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W4415090291",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Digital and Cyber Forensics",
+        "Security and Verification in Computing",
+        "Web Application Security Vulnerabilities"
+      ],
+      "synthetic": false,
+      "title": "Prompt Injection Attacks on LLM Generated Reviews of Scientific Publications",
+      "upstreamCreatedAt": "2025-10-12T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-05T14:39:15Z",
+      "version": "conference-paper"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sahir Maharaj",
+          "orcid": "https://orcid.org/0009-0008-7878-0138"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.5281/zenodo.21855133",
+      "id": "observation:openalex:440266aaaac7e3cb",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21855133"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7201980560"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by",
+      "language": null,
+      "observedAt": "2026-08-20T18:07:20Z",
+      "payloadBytes": 18085,
+      "payloadReceipt": "sha256:bcd46ae33edd77f07725cfeeffab8764c470be20ce34f846c2c501956c1be836",
+      "publishedOn": "2026-08-01",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7201980560",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Security and Verification in Computing",
+        "Spam and Phishing Detection",
+        "Web Application Security Vulnerabilities"
+      ],
+      "synthetic": false,
+      "title": "Measuring Indirect Prompt Injection in Autonomous Web Agents",
+      "upstreamCreatedAt": "2026-08-09T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-09T14:27:16Z",
+      "version": "article"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:20Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-publication-discovery",
+    "queryReceipt": "sha256:40418b1b787cf93fdef11e86024be22ea2820ec98825c8ec66dfe90b2f36e2ed",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent security",
+      "capability security",
+      "confused deputy",
+      "data exfiltration",
+      "indirect prompt injection",
+      "information flow control",
+      "prompt injection",
+      "sandbox escape",
+      "tool poisoning"
+    ],
+    "watchlistId": "agent-security",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "openalex",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "not-required",
+    "evidenceUrl": "https://help.openalex.org/api",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "OpenAlex metadata is released under CC0.",
+    "redistribution": "Graph metadata can be redistributed; linked abstracts and content may carry upstream rights and are not ingested here."
+  },
+  "usage": {
+    "bytesReceived": 18085,
+    "itemsReceived": 2,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "publication-date"
+}

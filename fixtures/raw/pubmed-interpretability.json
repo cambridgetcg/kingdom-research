@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "result": {
+    "uids": ["99900001"],
+    "99900001": {
+      "uid": "99900001",
+      "title": "Mechanistic interpretability for natural-language agent reasoning",
+      "sortpubdate": "2026/08/18 00:00",
+      "pubdate": "2026 Aug 18",
+      "sortfirstauthor": "Example A",
+      "authors": [
+        { "name": "Example A" },
+        { "name": "Sample R" }
+      ],
+      "lang": ["eng"],
+      "pubtype": ["Journal Article"],
+      "articleids": [
+        { "idtype": "pubmed", "value": "99900001" },
+        { "idtype": "pmc", "value": "PMC99900001" },
+        { "idtype": "doi", "value": "10.0000/kingdom.synthetic.001" }
+      ],
+      "lastupdated": "2026-08-20T13:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thekingdom.dev/research/schemas/v0.1/public-snapshot.schema.json",
+  "title": "KINGDOM public research snapshot 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "asOf", "mode", "metadataOnly", "generatedFrom", "sources", "watchlists", "observations", "works", "signals", "boundaries"],
+  "properties": {
+    "schema": { "const": "kingdom.research-public-snapshot/0.1" },
+    "asOf": { "$ref": "#/$defs/instant" },
+    "mode": { "enum": ["synthetic-fixture-observatory", "captured-live-observatory", "mixed-observatory"] },
+    "metadataOnly": { "const": true },
+    "generatedFrom": {
+      "type": "object", "additionalProperties": false,
+      "required": ["sourceManifestReceipt", "watchlistManifestReceipt", "fixtureSetReceipt", "captureSetReceipt", "captureProjection", "pipelineVersion"],
+      "properties": {
+        "sourceManifestReceipt": { "$ref": "#/$defs/receipt" },
+        "watchlistManifestReceipt": { "$ref": "#/$defs/receipt" },
+        "fixtureSetReceipt": { "oneOf": [{ "$ref": "#/$defs/receipt" }, { "type": "null" }] },
+        "captureSetReceipt": { "oneOf": [{ "$ref": "#/$defs/receipt" }, { "type": "null" }] },
+        "captureProjection": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object", "additionalProperties": false,
+              "required": ["policy", "retainedCaptureFiles", "selectedCaptureFiles", "availableObservations", "publishedObservations", "truncatedObservations", "projectionReceipt"],
+              "properties": {
+                "policy": { "const": "latest-and-latest-nonempty-per-lane-plus-30-day-integrity-v0.1" },
+                "retainedCaptureFiles": { "type": "integer", "minimum": 1 },
+                "selectedCaptureFiles": { "type": "integer", "minimum": 1 },
+                "availableObservations": { "type": "integer", "minimum": 1 },
+                "publishedObservations": { "type": "integer", "minimum": 1, "maximum": 256 },
+                "truncatedObservations": { "type": "integer", "minimum": 0 },
+                "projectionReceipt": { "$ref": "#/$defs/receipt" }
+              }
+            }
+          ]
+        },
+        "pipelineVersion": { "const": "0.1.0" }
+      }
+    },
+    "sources": { "type": "array", "minItems": 7, "maxItems": 16, "items": { "$ref": "source.schema.json" } },
+    "watchlists": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "$ref": "watchlist.schema.json" } },
+    "observations": { "type": "array", "minItems": 1, "maxItems": 256, "items": { "$ref": "observation.schema.json" } },
+    "works": { "type": "array", "minItems": 1, "maxItems": 256, "items": { "$ref": "work.schema.json" } },
+    "signals": { "type": "array", "maxItems": 1024, "items": { "$ref": "signal.schema.json" } },
+    "boundaries": {
+      "type": "object", "additionalProperties": false,
+      "required": ["buildNetworkUsed", "liveHarvestNetworkObserved", "captureProvenance", "fullTextIncluded", "artifactExecution", "evaluationPerformed", "adoptionRecorded", "useAuthorized", "moduleCreated", "guestAdmitted"],
+      "properties": {
+        "buildNetworkUsed": { "const": false },
+        "liveHarvestNetworkObserved": { "type": "boolean" },
+        "captureProvenance": { "enum": ["fixtures-only", "imported-live-captures", "mixed-fixtures-and-live-captures"] },
+        "fullTextIncluded": { "const": false },
+        "artifactExecution": { "const": false }, "evaluationPerformed": { "const": false },
+        "adoptionRecorded": { "const": false }, "useAuthorized": { "const": false },
+        "moduleCreated": { "const": false }, "guestAdmitted": { "const": false }
+      }
+    }
+  },
+  "$defs": {
+    "instant": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+    "receipt": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
+  }
+}

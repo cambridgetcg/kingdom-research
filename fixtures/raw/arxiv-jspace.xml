@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:arXiv="http://arxiv.org/OAI/arXiv/">
+  <responseDate>2026-08-20T15:12:00Z</responseDate>
+  <request verb="ListRecords">https://oaipmh.arxiv.org/oai</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:arXiv.org:2608.01234</identifier>
+        <datestamp>2026-08-20</datestamp>
+        <setSpec>cs.AI</setSpec>
+      </header>
+      <metadata>
+        <arXiv:arXiv>
+          <arXiv:id>2608.01234</arXiv:id>
+          <arXiv:created>2026-08-10</arXiv:created>
+          <arXiv:updated>2026-08-20</arXiv:updated>
+          <arXiv:authors>
+            <arXiv:author><arXiv:keyname>Example</arXiv:keyname><arXiv:forenames>Tala</arXiv:forenames></arXiv:author>
+            <arXiv:author><arXiv:keyname>Sample</arXiv:keyname><arXiv:forenames>Omar</arXiv:forenames></arXiv:author>
+          </arXiv:authors>
+          <arXiv:title>J-space probes for interpretable reasoning</arXiv:title>
+          <arXiv:categories>cs.AI cs.LG</arXiv:categories>
+          <arXiv:license>http://creativecommons.org/licenses/by/4.0/</arXiv:license>
+          <arXiv:doi>10.0000/kingdom.synthetic.003</arXiv:doi>
+        </arXiv:arXiv>
+      </metadata>
+    </record>
+    <resumptionToken></resumptionToken>
+  </ListRecords>
+</OAI-PMH>

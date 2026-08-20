@@ -1,0 +1,367 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1jcmVhdGVkLWRlbHRhIiwic291cmNlSWQiOiJkYXRhY2l0ZSIsInRlcm1zUmVjZWlwdCI6InNoYTI1NjpjYzAxZWE0YmI1ZTE0ODQ0MzQyMDQ0Y2YxNDIwNzYyNTc2MDIwZjljODY4MGI4YjExNDQwMzg4ZDQ4ZTczZWQxIiwid2F0Y2hsaXN0SWQiOiJsYW5ndWFnZS1hZ2VudC1pbnRlcm9wZXJhYmlsaXR5Iiwid2F0ZXJtYXJrIjoiMjAyNi0wOC0wMVQwMDowMDowMFoifSwiaGlnaFdhdGVybWFyayI6IjIwMjYtMDgtMDFUMTQ6MjI6MDJaIiwicHJvdmlkZXJDdXJzb3IiOiJNVGM0TlRVNU5ERXlNakF3TUN3eE1DNDFNamd4TDNwbGJtOWtieTR5TVRjME1EVTBOQSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Arnold, Jaret",
+          "orcid": "https://orcid.org/0009-0003-4055-5238"
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21729883",
+      "id": "observation:datacite:799f792243ed9d07",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21729883"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "mit",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:58Z",
+      "payloadBytes": 19000,
+      "payloadReceipt": "sha256:8073fb244311355bd71e6becb29d38ae72bce726c186ffb315c586e6ae74bba5",
+      "publishedOn": "2026-08-01",
+      "recordType": "software",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T00:07:33Z",
+          "identifier": {
+            "scheme": "source",
+            "value": "datacite:https://github.com/musharna/ldraw-mcp"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-supplement-to"
+        },
+        {
+          "assertedAt": "2026-08-01T00:07:33Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21713452"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "software",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21729883",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "3d-rendering",
+        "blender",
+        "ldraw",
+        "lego",
+        "mcp",
+        "model-context-protocol"
+      ],
+      "synthetic": false,
+      "title": "ldraw-mcp: real-geometry LDraw/LEGO rendering for vision-capable models over the Model Context Protocol",
+      "upstreamCreatedAt": "2026-08-01T00:07:32Z",
+      "upstreamUpdatedAt": "2026-08-01T00:07:33Z",
+      "version": "v0.2.1"
+    },
+    {
+      "authors": [
+        {
+          "name": "Flynn, David C.",
+          "orcid": "https://orcid.org/0000-0002-2768-6650"
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21731417",
+      "id": "observation:datacite:b19e4c97f9b23d62",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21731417"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:58Z",
+      "payloadBytes": 19000,
+      "payloadReceipt": "sha256:8073fb244311355bd71e6becb29d38ae72bce726c186ffb315c586e6ae74bba5",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T03:05:09Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21731417"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21731417",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "30B Semantic Risk Evaluator",
+        "Compositional Tool‑Use Threats",
+        "Intent Tree",
+        "Model Context Protocol",
+        "Semantic Zero‑Trust",
+        "Signed Intent Manifest",
+        "Trusted Context Assembly"
+      ],
+      "synthetic": false,
+      "title": "Semantic Zero-Trust for Model Context Protocol",
+      "upstreamCreatedAt": "2026-08-01T03:05:08Z",
+      "upstreamUpdatedAt": "2026-08-01T03:05:09Z",
+      "version": "V1"
+    },
+    {
+      "authors": [
+        {
+          "name": "Flynn, David C.",
+          "orcid": "https://orcid.org/0000-0002-2768-6650"
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21731418",
+      "id": "observation:datacite:1916afceb5a82955",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21731418"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:58Z",
+      "payloadBytes": 19000,
+      "payloadReceipt": "sha256:8073fb244311355bd71e6becb29d38ae72bce726c186ffb315c586e6ae74bba5",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T03:05:08Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21731417"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21731418",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "30B Semantic Risk Evaluator",
+        "Compositional Tool‑Use Threats",
+        "Intent Tree",
+        "Model Context Protocol",
+        "Semantic Zero‑Trust",
+        "Signed Intent Manifest",
+        "Trusted Context Assembly"
+      ],
+      "synthetic": false,
+      "title": "Semantic Zero-Trust for Model Context Protocol",
+      "upstreamCreatedAt": "2026-08-01T03:05:08Z",
+      "upstreamUpdatedAt": "2026-08-01T03:05:08Z",
+      "version": "V1"
+    },
+    {
+      "authors": [
+        {
+          "name": "Arnold, Jaret",
+          "orcid": "https://orcid.org/0009-0003-4055-5238"
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21736124",
+      "id": "observation:datacite:67eab70b87c630d0",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21736124"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "mit",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:58Z",
+      "payloadBytes": 19000,
+      "payloadReceipt": "sha256:8073fb244311355bd71e6becb29d38ae72bce726c186ffb315c586e6ae74bba5",
+      "publishedOn": "2026-08-01",
+      "recordType": "software",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T07:11:35Z",
+          "identifier": {
+            "scheme": "source",
+            "value": "datacite:https://github.com/musharna/ldraw-mcp"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-supplement-to"
+        },
+        {
+          "assertedAt": "2026-08-01T07:11:35Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21713452"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "software",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21736124",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "3d-rendering",
+        "blender",
+        "ldraw",
+        "lego",
+        "mcp",
+        "model-context-protocol"
+      ],
+      "synthetic": false,
+      "title": "ldraw-mcp: real-geometry LDraw/LEGO rendering for vision-capable models over the Model Context Protocol",
+      "upstreamCreatedAt": "2026-08-01T07:11:35Z",
+      "upstreamUpdatedAt": "2026-08-01T07:11:35Z",
+      "version": "v0.2.2"
+    },
+    {
+      "authors": [
+        {
+          "name": "Bothraj P",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://zenodo.org/doi/10.5281/zenodo.21740544",
+      "id": "observation:datacite:6e71c79f4f0f367c",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21740544"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by-4.0",
+      "language": null,
+      "observedAt": "2026-08-20T18:09:58Z",
+      "payloadBytes": 19000,
+      "payloadReceipt": "sha256:8073fb244311355bd71e6becb29d38ae72bce726c186ffb315c586e6ae74bba5",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [
+        {
+          "assertedAt": "2026-08-01T14:22:02Z",
+          "identifier": {
+            "scheme": "doi",
+            "value": "10.5281/zenodo.21740544"
+          },
+          "recordId": null,
+          "source": "datacite-deposit",
+          "type": "is-version-of"
+        }
+      ],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "datacite",
+      "sourceRecordId": "10.5281/zenodo.21740544",
+      "sourceStatus": "findable",
+      "status": "active",
+      "subjects": [
+        "AI Agents",
+        "Agentci AI",
+        "Artificial Intelligence",
+        "Large Language Models",
+        "Model Context Protocol",
+        "Natural Language to SQL",
+        "Retrieval-Augmented Generation"
+      ],
+      "synthetic": false,
+      "title": "Enterprise Agentic AI: A Reference Architecture for Natural Language to SQL, Model Context Protocol (MCP), Retrieval-Augmented Generation (RAG), Multi-Agent Systems, and Production AI",
+      "upstreamCreatedAt": "2026-08-01T14:22:02Z",
+      "upstreamUpdatedAt": "2026-08-01T14:22:02Z",
+      "version": "v1.0"
+    }
+  ],
+  "observedAt": "2026-08-20T18:09:58Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-created-delta",
+    "queryReceipt": "sha256:1a0b5899e83c04aafd2445ed2719e5d1037d111454253f731b06c42a1668e363",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent interoperability",
+      "agent protocol",
+      "language-oriented programming",
+      "model context protocol",
+      "natural-language programming",
+      "semantic interface",
+      "tool interoperability",
+      "tool protocol"
+    ],
+    "watchlistId": "language-agent-interoperability",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "datacite",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "not-required",
+    "evidenceUrl": "https://support.datacite.org/docs/datacite-data-file-use-policy",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "DataCite DOI metadata is released under CC0.",
+    "redistribution": "Metadata can be redistributed; each linked dataset, software object, or document retains its own rights."
+  },
+  "usage": {
+    "bytesReceived": 19000,
+    "itemsReceived": 5,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "created-time"
+}

@@ -1,0 +1,217 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1wdWJsaWNhdGlvbi1kaXNjb3ZlcnkiLCJzb3VyY2VJZCI6Im9wZW5hbGV4IiwidGVybXNSZWNlaXB0Ijoic2hhMjU2OjNjYzFhY2M0YWYyZTViZGUwZGZjZmRkYzkxMWExYTYxOGI4OThmNzljNjliYzJkOTljOGIzYWQ2ZGU2NDQ2NDgiLCJ3YXRjaGxpc3RJZCI6ImludGVycHJldGFibGUtcmVhc29uaW5nIiwid2F0ZXJtYXJrIjoiMjAyNi0wOC0wMVQwMDowMDowMFoifSwiaGlnaFdhdGVybWFyayI6IjIwMjYtMDgtMTRUMDA6MDA6MDBaIiwicHJvdmlkZXJDdXJzb3IiOiJJbHN4TkM0eU56VTJNRElzSURFM09EWTBPVEk0TURBd01EQXNJQ2RvZEhSd2N6b3ZMMjl3Wlc1aGJHVjRMbTl5Wnk5WE56SXdNakkwTnpRNU5TZGRJZz09IiwidiI6MX0",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Bo Cheng",
+          "orcid": null
+        },
+        {
+          "name": "Qiaolin Lu",
+          "orcid": null
+        },
+        {
+          "name": "Yi Chang",
+          "orcid": null
+        },
+        {
+          "name": "Yuan Wu",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://arxiv.org/abs/2608.08168",
+      "id": "observation:openalex:1b8e64b22e3dadc2",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.48550/arxiv.2608.08168"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7202210108"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": null,
+      "observedAt": "2026-08-20T18:09:27Z",
+      "payloadBytes": 16846,
+      "payloadReceipt": "sha256:f189312453977c068eecb917cf38e84d9187f70c207d22dc52c021a7b531dafa",
+      "publishedOn": "2026-08-08",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7202210108",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Multimodal Machine Learning Applications",
+        "Text Readability and Simplification",
+        "Topic Modeling"
+      ],
+      "synthetic": false,
+      "title": "Thinking vs. NoThinking: Towards Interpreting Reasoning Mechanisms of Large Language Models via Sparse Autoencoders",
+      "upstreamCreatedAt": "2026-08-12T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-14T14:06:38Z",
+      "version": "preprint"
+    },
+    {
+      "authors": [
+        {
+          "name": "J. Melton",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.5281/zenodo.21906710",
+      "id": "observation:openalex:73435497545114aa",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21906710"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7202273798"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by",
+      "language": "en",
+      "observedAt": "2026-08-20T18:09:27Z",
+      "payloadBytes": 16846,
+      "payloadReceipt": "sha256:f189312453977c068eecb917cf38e84d9187f70c207d22dc52c021a7b531dafa",
+      "publishedOn": "2026-08-14",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7202273798",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Adversarial Robustness in Machine Learning",
+        "Domain Adaptation and Few-Shot Learning",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "synthetic": false,
+      "title": "Distributed Mechanistic Interpretability at Scale: Activation Streaming, Split-Layer Inference, and Distributed Sparse Autoencoder Training",
+      "upstreamCreatedAt": "2026-08-13T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-15T14:11:24Z",
+      "version": "preprint"
+    },
+    {
+      "authors": [
+        {
+          "name": "J. Melton",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.5281/zenodo.21906711",
+      "id": "observation:openalex:3639582f7362b788",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21906711"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7202247495"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by",
+      "language": "en",
+      "observedAt": "2026-08-20T18:09:27Z",
+      "payloadBytes": 16846,
+      "payloadReceipt": "sha256:f189312453977c068eecb917cf38e84d9187f70c207d22dc52c021a7b531dafa",
+      "publishedOn": "2026-08-12",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7202247495",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Adversarial Robustness in Machine Learning",
+        "Domain Adaptation and Few-Shot Learning",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "synthetic": false,
+      "title": "Distributed Mechanistic Interpretability at Scale: Activation Streaming, Split-Layer Inference, and Distributed Sparse Autoencoder Training",
+      "upstreamCreatedAt": "2026-08-13T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-15T14:11:24Z",
+      "version": "preprint"
+    }
+  ],
+  "observedAt": "2026-08-20T18:09:27Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-publication-discovery",
+    "queryReceipt": "sha256:a0f3b193cd468da87c9898d8f20457fc3761cf20a6ea4b8dc12b3b0f873370ea",
+    "rawUrlAccepted": false,
+    "terms": [
+      "activation steering",
+      "causal tracing",
+      "circuit tracing",
+      "interpretable reasoning",
+      "J-space",
+      "Jacobian lens",
+      "mechanistic interpretability",
+      "representation engineering",
+      "sparse autoencoder"
+    ],
+    "watchlistId": "interpretable-reasoning",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "openalex",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "not-required",
+    "evidenceUrl": "https://help.openalex.org/api",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "OpenAlex metadata is released under CC0.",
+    "redistribution": "Graph metadata can be redistributed; linked abstracts and content may carry upstream rights and are not ingested here."
+  },
+  "usage": {
+    "bytesReceived": 16846,
+    "itemsReceived": 3,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "publication-date"
+}

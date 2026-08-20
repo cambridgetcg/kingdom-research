@@ -1,0 +1,42 @@
+{
+  "synthetic": true,
+  "meta": { "next_cursor": null },
+  "results": [
+    {
+      "id": "https://openalex.org/W000000001",
+      "doi": "https://doi.org/10.0000/kingdom.synthetic.001",
+      "title": "Mechanistic interpretability for natural-language agent reasoning",
+      "publication_date": "2026-08-18",
+      "updated_date": "2026-08-20T12:30:00Z",
+      "type": "article",
+      "language": "en",
+      "ids": {
+        "openalex": "https://openalex.org/W000000001",
+        "doi": "https://doi.org/10.0000/kingdom.synthetic.001",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/99900001"
+      },
+      "authorships": [
+        {
+          "author": {
+            "display_name": "Amina Example",
+            "orcid": "https://orcid.org/0000-0000-0000-000X"
+          }
+        },
+        {
+          "author": {
+            "display_name": "Ren Sample",
+            "orcid": null
+          }
+        }
+      ],
+      "topics": [
+        { "display_name": "Mechanistic interpretability" },
+        { "display_name": "Natural-language programming" }
+      ],
+      "primary_location": {
+        "landing_page_url": "https://doi.org/10.0000/kingdom.synthetic.001",
+        "source": { "display_name": "Synthetic Journal of Safe Agents" }
+      }
+    }
+  ]
+}

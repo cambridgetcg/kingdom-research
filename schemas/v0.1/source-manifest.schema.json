@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thekingdom.dev/research/schemas/v0.1/source-manifest.schema.json",
+  "title": "KINGDOM research source manifest 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "observedOn", "runtimeMode", "metadataOnly", "fullTextIngestion", "networkAccess", "sources"],
+  "properties": {
+    "schema": { "const": "kingdom.research-source-manifest/0.1" },
+    "observedOn": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "runtimeMode": { "const": "offline-by-default-explicit-poll-only" },
+    "metadataOnly": { "const": true },
+    "fullTextIngestion": { "const": false },
+    "networkAccess": { "const": "explicit-poll-verb-only" },
+    "sources": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 16,
+      "items": { "$ref": "source.schema.json" }
+    }
+  }
+}

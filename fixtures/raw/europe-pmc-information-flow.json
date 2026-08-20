@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "nextCursorMark": null,
+  "resultList": {
+    "result": [
+      {
+        "id": "99900002",
+        "source": "MED",
+        "pmid": "99900002",
+        "pmcid": "PMC99900002",
+        "doi": "10.0000/kingdom.synthetic.002",
+        "title": "Secure information flow for prompt-injection-resistant agents",
+        "authorString": "Okafor N, Silva M",
+        "firstPublicationDate": "2026-08-17",
+        "dateOfCreation": "2026-08-18",
+        "dateOfRevision": "2026-08-20",
+        "pubTypeList": { "pubType": ["research article"] },
+        "journalTitle": "Synthetic Systems Safety",
+        "language": "eng",
+        "isOpenAccess": "N",
+        "hasTextMinedTerms": "Y"
+      }
+    ]
+  }
+}

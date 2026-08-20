@@ -1,0 +1,263 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy11cGRhdGUtZGVsdGEiLCJzb3VyY2VJZCI6ImV1cm9wZS1wbWMiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6NWJjYWI4YWUyMDlkMDRhMDI1NmY2YmFkZTI5ZmQ4MmQwYzM2Njk2MTZlMDAxNTYwMzQzYmRlZDllODZiZjQxOCIsIndhdGNobGlzdElkIjoiYWdlbnQtc2VjdXJpdHkiLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0xM1QwMDowMDowMFoiLCJwcm92aWRlckN1cnNvciI6IkFvSUlRSURWT3lnMU5qRXlNak14Tnc9PSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Rashidi M.",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.21203/rs.3.rs-10646218/v1",
+      "id": "observation:europe-pmc:a25ee238b7d86ca6",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.21203/rs.3.rs-10646218/v1"
+        },
+        {
+          "scheme": "source",
+          "value": "europe-pmc:PPR:PPR1296126"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": null,
+      "observedAt": "2026-08-20T18:07:27Z",
+      "payloadBytes": 20133,
+      "payloadReceipt": "sha256:8740a9f1c5ebb5454061d64bec1bfbf168db9f27e50fa0e14a35667364217919",
+      "publishedOn": "2026-08-11",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "europe-pmc",
+      "sourceRecordId": "PPR:PPR1296126",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Preprint"
+      ],
+      "synthetic": false,
+      "title": "Labelled-Metadata Channels and Declarative Payload Phrasing in Hidden Prompt Injection: A Cross-Format Measurement Study",
+      "upstreamCreatedAt": "2026-08-12T00:00:00Z",
+      "upstreamUpdatedAt": "2026-08-12T00:00:00Z",
+      "version": "preprint"
+    },
+    {
+      "authors": [
+        {
+          "name": "Zhang Z",
+          "orcid": null
+        },
+        {
+          "name": "Qadir MI",
+          "orcid": null
+        },
+        {
+          "name": "Carstens M",
+          "orcid": null
+        },
+        {
+          "name": "Zhang EH",
+          "orcid": null
+        },
+        {
+          "name": "Loiselle MS",
+          "orcid": null
+        },
+        {
+          "name": "Martinus FM",
+          "orcid": null
+        },
+        {
+          "name": "Mroczkowski MK",
+          "orcid": null
+        },
+        {
+          "name": "Clusmann J",
+          "orcid": null
+        },
+        {
+          "name": "Kather JN",
+          "orcid": null
+        },
+        {
+          "name": "Kolbinger FR.",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.1038/s44484-026-00014-6",
+      "id": "observation:europe-pmc:d630ceb350736a88",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1038/s44484-026-00014-6"
+        },
+        {
+          "scheme": "pmid",
+          "value": "42523678"
+        },
+        {
+          "scheme": "source",
+          "value": "europe-pmc:MED:42523678"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:27Z",
+      "payloadBytes": 20133,
+      "payloadReceipt": "sha256:8740a9f1c5ebb5454061d64bec1bfbf168db9f27e50fa0e14a35667364217919",
+      "publishedOn": "2026-07-27",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "europe-pmc",
+      "sourceRecordId": "MED:42523678",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Journal Article"
+      ],
+      "synthetic": false,
+      "title": "Prompt injection attacks on vision-language models for surgical decision support.",
+      "upstreamCreatedAt": "2026-07-29T00:00:00Z",
+      "upstreamUpdatedAt": "2026-08-13T00:00:00Z",
+      "version": "indexed-publication"
+    },
+    {
+      "authors": [
+        {
+          "name": "De Cassai A",
+          "orcid": null
+        },
+        {
+          "name": "Dost B",
+          "orcid": null
+        },
+        {
+          "name": "Pistollato E",
+          "orcid": null
+        },
+        {
+          "name": "Zarantonello F",
+          "orcid": null
+        },
+        {
+          "name": "Boscolo A",
+          "orcid": null
+        },
+        {
+          "name": "Navalesi P.",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.1016/j.bja.2026.06.041",
+      "id": "observation:europe-pmc:52129ee39ae1f6a0",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1016/j.bja.2026.06.041"
+        },
+        {
+          "scheme": "pmid",
+          "value": "42580931"
+        },
+        {
+          "scheme": "source",
+          "value": "europe-pmc:MED:42580931"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:27Z",
+      "payloadBytes": 20133,
+      "payloadReceipt": "sha256:8740a9f1c5ebb5454061d64bec1bfbf168db9f27e50fa0e14a35667364217919",
+      "publishedOn": "2026-08-11",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "europe-pmc",
+      "sourceRecordId": "MED:42580931",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Letter"
+      ],
+      "synthetic": false,
+      "title": "Prompt injection compromises large language model-based peer review: evidence from randomised controlled trial abstracts from anaesthesia journals.",
+      "upstreamCreatedAt": "2026-08-11T00:00:00Z",
+      "upstreamUpdatedAt": "2026-08-11T00:00:00Z",
+      "version": "indexed-publication"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:27Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-update-delta",
+    "queryReceipt": "sha256:6b25d7f9ab9facfa4bfdcee28907722f9243f0d2e79b98dacf1468badf0c99cd",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent security",
+      "capability security",
+      "confused deputy",
+      "data exfiltration",
+      "indirect prompt injection",
+      "information flow control",
+      "prompt injection",
+      "sandbox escape",
+      "tool poisoning"
+    ],
+    "watchlistId": "agent-security",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "europe-pmc",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "EMBL-EBI imposes no additional restriction on supplied data beyond rights held by original data owners; public queryability is not itself a reuse grant.",
+    "redistribution": "Attribute Europe PMC and EMBL-EBI, comply with original-owner rights, and accept responsibility for third-party permissions. This module republishes selected normalized metadata only and no full text."
+  },
+  "usage": {
+    "bytesReceived": 20133,
+    "itemsReceived": 3,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "updated-time"
+}

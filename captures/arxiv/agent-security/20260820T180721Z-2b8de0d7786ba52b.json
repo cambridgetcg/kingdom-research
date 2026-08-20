@@ -1,0 +1,120 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1zdWJtaXNzaW9uLWRpc2NvdmVyeSIsInNvdXJjZUlkIjoiYXJ4aXYiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6NWJjYWI4YWUyMDlkMDRhMDI1NmY2YmFkZTI5ZmQ4MmQwYzM2Njk2MTZlMDAxNTYwMzQzYmRlZDllODZiZjQxOCIsIndhdGNobGlzdElkIjoiYWdlbnQtc2VjdXJpdHkiLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0wMlQxMDowNDoyMloiLCJwcm92aWRlckN1cnNvciI6IjUiLCJ2IjoxfQ",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Neha Nagaraja",
+          "orcid": null
+        },
+        {
+          "name": "Amisha Bagari",
+          "orcid": null
+        },
+        {
+          "name": "Hayretdin Bahsi",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://arxiv.org/abs/2608.00747",
+      "id": "observation:arxiv:28c2c5fcfeca666e",
+      "identifiers": [
+        {
+          "scheme": "arxiv",
+          "value": "2608.00747"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:21Z",
+      "payloadBytes": 13536,
+      "payloadReceipt": "sha256:aca634242cab8069907af4a1c5c77d06eb2b86354a44d976663d385d604709cd",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "arxiv",
+      "sourceRecordId": "2608.00747",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "cs.AI",
+        "cs.CR",
+        "cs.MA",
+        "cs.RO"
+      ],
+      "synthetic": false,
+      "title": "When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems",
+      "upstreamCreatedAt": "2026-08-01T16:31:00Z",
+      "upstreamUpdatedAt": "2026-08-04T16:20:03Z",
+      "version": "v2"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:21Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-submission-discovery",
+    "queryReceipt": "sha256:3e6843456c15073afa035efdc66722bfbf90c0e890b5d0b236c1402d072eabf5",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent security",
+      "capability security",
+      "confused deputy",
+      "data exfiltration",
+      "indirect prompt injection",
+      "information flow control",
+      "prompt injection",
+      "sandbox escape",
+      "tool poisoning"
+    ],
+    "watchlistId": "agent-security",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "arxiv",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://info.arxiv.org/help/api/tou.html",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "Descriptive API metadata is offered as CC0; item content remains under its submitted licence or copyright.",
+    "redistribution": "This module republishes normalized metadata and links only; it does not copy article content. Product displays should include: Thank you to arXiv for use of its open access interoperability."
+  },
+  "usage": {
+    "bytesReceived": 13536,
+    "itemsReceived": 1,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "created-time"
+}

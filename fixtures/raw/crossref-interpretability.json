@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "message": {
+    "items": [
+      {
+        "DOI": "10.0000/kingdom.synthetic.001",
+        "URL": "https://doi.org/10.0000/kingdom.synthetic.001",
+        "title": ["Mechanistic interpretability for natural-language agent reasoning"],
+        "author": [
+          {
+            "given": "Amina",
+            "family": "Example",
+            "ORCID": "https://orcid.org/0000-0000-0000-000X"
+          },
+          {
+            "given": "Ren",
+            "family": "Sample"
+          }
+        ],
+        "published": { "date-parts": [[2026, 8, 18]] },
+        "indexed": { "date-time": "2026-08-20T12:00:00Z" },
+        "type": "journal-article",
+        "subtype": "article",
+        "language": "en",
+        "subject": ["Artificial Intelligence", "Computer Science"]
+      }
+    ],
+    "next-cursor": null
+  }
+}

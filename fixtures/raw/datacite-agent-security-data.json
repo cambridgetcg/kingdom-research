@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "links": { "next": null },
+  "data": [
+    {
+      "id": "10.0000/kingdom.synthetic.dataset.001",
+      "type": "dois",
+      "attributes": {
+        "doi": "10.0000/kingdom.synthetic.dataset.001",
+        "url": "https://example.invalid/datasets/prompt-injection-mcp",
+        "titles": [
+          { "title": "Prompt injection benchmark for MCP agent interoperability" }
+        ],
+        "creators": [
+          {
+            "name": "Example, Amina",
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "https://orcid.org/0000-0000-0000-000X",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          }
+        ],
+        "published": "2026",
+        "created": "2026-08-19T10:00:00Z",
+        "updated": "2026-08-20T10:00:00Z",
+        "language": "en",
+        "types": { "resourceTypeGeneral": "Dataset" },
+        "subjects": [
+          { "subject": "prompt injection" },
+          { "subject": "agent interoperability" },
+          { "subject": "model context protocol" }
+        ],
+        "rightsList": [
+          { "rights": "CC0-1.0" }
+        ],
+        "relatedIdentifiers": [
+          {
+            "relationType": "IsSupplementTo",
+            "relatedIdentifierType": "DOI",
+            "relatedIdentifier": "10.0000/kingdom.synthetic.002"
+          }
+        ]
+      }
+    }
+  ]
+}

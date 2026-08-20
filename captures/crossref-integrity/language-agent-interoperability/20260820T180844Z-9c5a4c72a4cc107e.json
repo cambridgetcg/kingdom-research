@@ -1,0 +1,68 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1pbmRleC1kZWx0YSIsInNvdXJjZUlkIjoiY3Jvc3NyZWYtaW50ZWdyaXR5IiwidGVybXNSZWNlaXB0Ijoic2hhMjU2OmNjMDFlYTRiYjVlMTQ4NDQzNDIwNDRjZjE0MjA3NjI1NzYwMjBmOWM4NjgwYjhiMTE0NDAzODhkNDhlNzNlZDEiLCJ3YXRjaGxpc3RJZCI6Imxhbmd1YWdlLWFnZW50LWludGVyb3BlcmFiaWxpdHkiLCJ3YXRlcm1hcmsiOiIyMDI2LTA3LTIwVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wNy0yMFQwMDowMDowMFoiLCJwcm92aWRlckN1cnNvciI6IkRuRjFaWEo1VkdobGJrWmxkR05vSkFBQUFBQnI4bWUtRmpKTFJXMDFRblZ5VkV4TFNHeEJXbXB4YnpOUllYY0FBQUFCdGsxblNCWlNVeTFtTkhscFZsRTRhWEZST0c4eFJFZHFkMlJSQUFBQUFhSTVkRXNXVm1Wbk9XeFhPWFJVU0ZOcFpVZ3RORFZFZDI4eFp3QUFBQUFwOHNNUUZubFZNalpPTVd4TFVVaHhNWHBpZEZFMlowUlFZbWNBQUFBQUhDbGxuUlp2UVZoVmVWaFhTRlJ2TW1wM0xXNXJhbGd6WlhKUkFBQUFBYUR0cTVvV1FXaFNlWGN6U0ZoVU5XVlBkVlZaTUMxWlozUkZad0FBQUFBckZBbXRGbVpqYzFGRGNsQnRVbUkyVTNWeFRTMU1hVGs0WVhjQUFBQUFLeGRBdlJacGFreFplVE4xZEZNNGNWVlBRMGwyVTFWamNFMVJBQUFBQUNzWFFMNFdhV3BNV1hremRYUlRPSEZWVDBOSmRsTlZZM0JOVVFBQUFBQXJGQW11Rm1aamMxRkRjbEJ0VW1JMlUzVnhUUzFNYVRrNFlYY0FBQUFBS2FwNXVCWm5aMmxsUWpkMWQxUnJjVGR2T1d0MlMyWlZTMXBuQUFBQUFDbGhjYmNXYmsxUllVbHlORWxUZEdFek5WUm1ZMDVXYUhrNVp3QUFBQUNNdGYxRUZsRXRiMUJNU2tkRVVqaEhZekJHT0hseFZVWjZhVUVBQUFBQWFfSm52eFl5UzBWdE5VSjFjbFJNUzBoc1FWcHFjVzh6VVdGM0FBQUFBSXdFb0VJV2RqWlpObk5MYUdkVFZrdG9hekkyTldZMU1VNUJkd0FBQUFBclBwY2RGbVZJWjNoa1ZETTJVbk5oYkY5WFluSnpMVXRzYlZFQUFBQUJsMzVBS0JaMWRsSktNemxyUlZOcU1qWnVjRFkzUzBsVVoxbG5BQUFBQUNzLWx4NFdaVWhuZUdSVU16WlNjMkZzWDFkaWNuTXRTMnh0VVFBQUFBR2c3YXViRmtGb1VubDNNMGhZVkRWbFQzVlZXVEF0V1dkMFJXY0FBQUFBS3hHTldSWmtNV1p4UVhSUlRWSlZUMUpWUkZoaldXRmhhR3AzQUFBQUFDcnRWcG9XTWtwc09USTBZMGhSVG5sVk5HMTJlVk13V2pGVFFRQUFBQUd2XzR0OEZsTjJORmt6VDBFelUwaFBhbXN4WlV4clJISldRbmNBQUFBQUhDbGxuaFp2UVZoVmVWaFhTRlJ2TW1wM0xXNXJhbGd6WlhKUkFBQUFBQ3J0VnBzV01rcHNPVEkwWTBoUlRubFZORzEyZVZNd1dqRlRRUUFBQUFHZHJFcUdGa05UY0VGTVFYQnFVbG90UzJOVlIyVTFabkJwZVdjQUFBQUJyXy1MZlJaVGRqUlpNMDlCTTFOSVQycHJNV1ZNYTBSeVZrSjNBQUFBQVpkLVFDa1dkWFpTU2pNNWEwVlRhakkyYm5BMk4wdEpWR2RaWndBQUFBQ01CS0JCRm5ZMldUWnpTMmhuVTFaTGFHc3lOalZtTlRGT1FYY0FBQUFCbzV0WEdoWXllbTlvYkU4M2FGUk1OblpMUmpsVGJYRk5Xa2gzQUFBQUFBVEdDY0FXU1d3MFJFSk9PWHBSY0V0RlVIRTVTblpsYzJKSVp3QUFBQUFFeGduQkZrbHNORVJDVGpsNlVYQkxSVkJ4T1VwMlpYTmlTR2NBQUFBQWpMWDlSUlpSTFc5UVRFcEhSRkk0UjJNd1JqaDVjVlZHZW1sQkFBQUFBQ25VU3hVV1Vub3ROM2RCVVU1U01tbG9VRFZVUjNrdGVIaENRUUFBQUFBckVZMWFGbVF4Wm5GQmRGRk5VbFZQVWxWRVdHTlpZV0ZvYW5jQUFBQUFLZkxERVJaNVZUSTJUakZzUzFGSWNURjZZblJSTm1kRVVHSm5BQUFBQWJaTlowVVdVbE10WmpSNWFWWlJPR2x4VVRodk1VUkhhbmRrVVE9PSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [],
+  "observedAt": "2026-08-20T18:08:44Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-index-delta",
+    "queryReceipt": "sha256:6093d3d079365f5ab6ccd8e6efbbe6e385f61541e0e2c08ff99e91bc2b2b77f6",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent interoperability",
+      "agent protocol",
+      "language-oriented programming",
+      "model context protocol",
+      "natural-language programming",
+      "semantic interface",
+      "tool interoperability",
+      "tool protocol"
+    ],
+    "watchlistId": "language-agent-interoperability",
+    "watermark": "2026-07-20T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "crossref-integrity",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/retraction-watch/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "The Retraction Watch database distributed by Crossref is CC0; Crossref requests citation when it is used in published work.",
+    "redistribution": "Freely reusable as CC0; preserve notice type, date, target, source, record ID, and requested citation. Linked content rights remain separate."
+  },
+  "usage": {
+    "bytesReceived": 10950,
+    "itemsReceived": 0,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-07-20T00:00:00Z",
+  "watermarkBefore": "2026-07-20T00:00:00Z",
+  "watermarkKind": "index-time"
+}

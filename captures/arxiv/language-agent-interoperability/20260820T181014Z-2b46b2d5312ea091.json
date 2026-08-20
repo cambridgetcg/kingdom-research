@@ -1,0 +1,109 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1zdWJtaXNzaW9uLWRpc2NvdmVyeSIsInNvdXJjZUlkIjoiYXJ4aXYiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6Y2MwMWVhNGJiNWUxNDg0NDM0MjA0NGNmMTQyMDc2MjU3NjAyMGY5Yzg2ODBiOGIxMTQ0MDM4OGQ0OGU3M2VkMSIsIndhdGNobGlzdElkIjoibGFuZ3VhZ2UtYWdlbnQtaW50ZXJvcGVyYWJpbGl0eSIsIndhdGVybWFyayI6IjIwMjYtMDgtMDFUMDA6MDA6MDBaIn0sImhpZ2hXYXRlcm1hcmsiOiIyMDI2LTA4LTA1VDA1OjI4OjIyWiIsInByb3ZpZGVyQ3Vyc29yIjoiNSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Gautam Bharti",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://arxiv.org/abs/2608.00997",
+      "id": "observation:arxiv:e6f88ec1494225ed",
+      "identifiers": [
+        {
+          "scheme": "arxiv",
+          "value": "2608.00997"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:10:14Z",
+      "payloadBytes": 15034,
+      "payloadReceipt": "sha256:2ee0413c8600110b459d631b27cb368754f5e44af15334c449ec8a839887849f",
+      "publishedOn": "2026-08-02",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "arxiv",
+      "sourceRecordId": "2608.00997",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "synthetic": false,
+      "title": "Registry Descriptions Go Stale Unevenly: An 89-Day Measurement of Model Context Protocol Drift, and Why Drift-Ranked Re-Auditing Under-Covers It",
+      "upstreamCreatedAt": "2026-08-02T04:54:06Z",
+      "upstreamUpdatedAt": "2026-08-04T23:19:10Z",
+      "version": "v2"
+    }
+  ],
+  "observedAt": "2026-08-20T18:10:14Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-submission-discovery",
+    "queryReceipt": "sha256:9d77bd245de6c5e6960e3377cd877a497928db602ab56db398fe12a48480d5cd",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent interoperability",
+      "agent protocol",
+      "language-oriented programming",
+      "model context protocol",
+      "natural-language programming",
+      "semantic interface",
+      "tool interoperability",
+      "tool protocol"
+    ],
+    "watchlistId": "language-agent-interoperability",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "arxiv",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://info.arxiv.org/help/api/tou.html",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "Descriptive API metadata is offered as CC0; item content remains under its submitted licence or copyright.",
+    "redistribution": "This module republishes normalized metadata and links only; it does not copy article content. Product displays should include: Thank you to arXiv for use of its open access interoperability."
+  },
+  "usage": {
+    "bytesReceived": 15034,
+    "itemsReceived": 1,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "created-time"
+}

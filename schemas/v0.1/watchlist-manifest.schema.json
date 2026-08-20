@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thekingdom.dev/research/schemas/v0.1/watchlist-manifest.schema.json",
+  "title": "KINGDOM research watchlist manifest 0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "observedOn", "rankingMode", "watchlists"],
+  "properties": {
+    "schema": { "const": "kingdom.research-watchlist-manifest/0.1" },
+    "observedOn": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "rankingMode": { "const": "factor-vectors-no-scalar" },
+    "watchlists": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "$ref": "watchlist.schema.json" }
+    }
+  }
+}

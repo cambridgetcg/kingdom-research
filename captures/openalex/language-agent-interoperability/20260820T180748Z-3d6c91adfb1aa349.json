@@ -1,0 +1,224 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1wdWJsaWNhdGlvbi1kaXNjb3ZlcnkiLCJzb3VyY2VJZCI6Im9wZW5hbGV4IiwidGVybXNSZWNlaXB0Ijoic2hhMjU2OmNjMDFlYTRiYjVlMTQ4NDQzNDIwNDRjZjE0MjA3NjI1NzYwMjBmOWM4NjgwYjhiMTE0NDAzODhkNDhlNzNlZDEiLCJ3YXRjaGxpc3RJZCI6Imxhbmd1YWdlLWFnZW50LWludGVyb3BlcmFiaWxpdHkiLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0xM1QwMDowMDowMFoiLCJwcm92aWRlckN1cnNvciI6IklsczRMalE1TnpnekxDQXhOemcxT1RjME5EQXdNREF3TENBbmFIUjBjSE02THk5dmNHVnVZV3hsZUM1dmNtY3ZWelEwTVRjeE1EQTRPRFFuWFNJPSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "David A. Flynn",
+          "orcid": "https://orcid.org/0000-0002-2768-6650"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.5281/zenodo.21731418",
+      "id": "observation:openalex:b3101fd2b0bad721",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21731418"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7172128171"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by",
+      "language": null,
+      "observedAt": "2026-08-20T18:07:48Z",
+      "payloadBytes": 35754,
+      "payloadReceipt": "sha256:2b632e0415b541f7fd58e14d4cd2c88a7a9fe8360a62fc12a7588a2196b4c637",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7172128171",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Access Control and Trust",
+        "Advanced Authentication Protocols Security",
+        "Security and Verification in Computing"
+      ],
+      "synthetic": false,
+      "title": "Semantic Zero-Trust for Model Context Protocol",
+      "upstreamCreatedAt": "2026-08-02T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-02T21:50:37Z",
+      "version": "preprint"
+    },
+    {
+      "authors": [
+        {
+          "name": "David A. Flynn",
+          "orcid": "https://orcid.org/0000-0002-2768-6650"
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.5281/zenodo.21731417",
+      "id": "observation:openalex:5df0413b4f705f15",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.5281/zenodo.21731417"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7172123867"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "cc-by",
+      "language": null,
+      "observedAt": "2026-08-20T18:07:48Z",
+      "payloadBytes": 35754,
+      "payloadReceipt": "sha256:2b632e0415b541f7fd58e14d4cd2c88a7a9fe8360a62fc12a7588a2196b4c637",
+      "publishedOn": "2026-08-01",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7172123867",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Access Control and Trust",
+        "Advanced Authentication Protocols Security",
+        "Security and Verification in Computing"
+      ],
+      "synthetic": false,
+      "title": "Semantic Zero-Trust for Model Context Protocol",
+      "upstreamCreatedAt": "2026-08-02T07:00:00Z",
+      "upstreamUpdatedAt": "2026-08-02T21:50:37Z",
+      "version": "preprint"
+    },
+    {
+      "authors": [
+        {
+          "name": "Shiva Gaire",
+          "orcid": null
+        },
+        {
+          "name": "Srijan Gyawali",
+          "orcid": null
+        },
+        {
+          "name": "Saroj Mishra",
+          "orcid": null
+        },
+        {
+          "name": "Suman Niroula",
+          "orcid": null
+        },
+        {
+          "name": "Dilip Thakur",
+          "orcid": null
+        },
+        {
+          "name": "Umesh Yadav",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.1007/978-3-032-32726-0_29",
+      "id": "observation:openalex:b67d730c87cfc5af",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.1007/978-3-032-32726-0_29"
+        },
+        {
+          "scheme": "openalex",
+          "value": "W7114797566"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": "en",
+      "observedAt": "2026-08-20T18:07:48Z",
+      "payloadBytes": 35754,
+      "payloadReceipt": "sha256:2b632e0415b541f7fd58e14d4cd2c88a7a9fe8360a62fc12a7588a2196b4c637",
+      "publishedOn": "2026-08-13",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "openalex",
+      "sourceRecordId": "W7114797566",
+      "sourceStatus": null,
+      "status": "active",
+      "subjects": [
+        "Adversarial Robustness in Machine Learning",
+        "Blockchain Technology Applications and Security",
+        "Machine Learning and Algorithms"
+      ],
+      "synthetic": false,
+      "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+      "upstreamCreatedAt": "2025-12-11T08:00:00Z",
+      "upstreamUpdatedAt": "2026-08-14T14:06:38Z",
+      "version": "conference-paper"
+    }
+  ],
+  "observedAt": "2026-08-20T18:07:48Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-publication-discovery",
+    "queryReceipt": "sha256:9149f410ca528e86e5edf4775afbb035a2a64e5ceb2ac65f5f78f803a82a51fe",
+    "rawUrlAccepted": false,
+    "terms": [
+      "agent interoperability",
+      "agent protocol",
+      "language-oriented programming",
+      "model context protocol",
+      "natural-language programming",
+      "semantic interface",
+      "tool interoperability",
+      "tool protocol"
+    ],
+    "watchlistId": "language-agent-interoperability",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "openalex",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "not-required",
+    "evidenceUrl": "https://help.openalex.org/api",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "OpenAlex metadata is released under CC0.",
+    "redistribution": "Graph metadata can be redistributed; linked abstracts and content may carry upstream rights and are not ingested here."
+  },
+  "usage": {
+    "bytesReceived": 35754,
+    "itemsReceived": 3,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "publication-date"
+}

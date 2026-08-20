@@ -1,0 +1,370 @@
+{
+  "schema": "kingdom.research-source-manifest/0.1",
+  "observedOn": "2026-08-20",
+  "runtimeMode": "offline-by-default-explicit-poll-only",
+  "metadataOnly": true,
+  "fullTextIngestion": false,
+  "networkAccess": "explicit-poll-verb-only",
+  "sources": [
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "arxiv",
+      "name": "arXiv",
+      "tier": "core",
+      "role": "preprint-repository",
+      "coverage": {
+        "geography": "Global submissions with strongest coverage in physics, mathematics, computer science, and adjacent fields.",
+        "disciplines": ["computer science", "economics", "electrical engineering", "mathematics", "physics", "quantitative biology", "statistics"],
+        "recordTypes": ["preprint"]
+      },
+      "authority": {
+        "kind": "authoritative-domain",
+        "canonicalFor": ["arXiv identifier", "arXiv submission version and withdrawal metadata"]
+      },
+      "access": {
+        "interfaces": ["rest", "oai-pmh", "bulk-snapshot"],
+        "documentationUrl": "https://info.arxiv.org/help/api/index.html",
+        "authentication": "none",
+        "rateLimit": "Legacy API, RSS, and OAI clients should make no more than one request every three seconds.",
+        "incremental": "cursor",
+        "webhook": false,
+        "mvpMode": "fixture-and-explicit-poll"
+      },
+      "freshness": {
+        "upstreamCadence": "The bounded legacy API exposes announced submissions and is queried by reviewed terms and submitted date; OAI remains the authoritative bulk metadata path but its provider-sized pages exceed this MVP's limits.",
+        "expectedLag": "Best-effort new-submission discovery only. Offset cursors over a changing result set are not a complete or stable update/deletion feed; consumers must overlap and restart rather than claim lossless sync.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "Descriptive API metadata is offered as CC0; item content remains under its submitted licence or copyright.",
+        "redistribution": "This module republishes normalized metadata and links only; it does not copy article content. Product displays should include: Thank you to arXiv for use of its open access interoperability.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://info.arxiv.org/help/api/tou.html",
+        "commercialReview": "recommended"
+      },
+      "identifiers": ["arXiv ID", "DOI when supplied"],
+      "officialUrls": ["https://info.arxiv.org/help/api/index.html", "https://info.arxiv.org/help/oa/index.html", "https://info.arxiv.org/help/api/tou.html", "https://info.arxiv.org/help/bulk_data/index.html"],
+      "risks": ["Preprints are not peer reviewed.", "The bounded live adapter is best-effort submission discovery and may miss later versions or withdrawals.", "Most full text cannot be redistributed without checking the item licence."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "biorxiv-medrxiv",
+      "name": "bioRxiv and medRxiv",
+      "tier": "core",
+      "role": "preprint-repository",
+      "coverage": {
+        "geography": "Global submissions in biology, health sciences, and medicine.",
+        "disciplines": ["biology", "health sciences", "medicine"],
+        "recordTypes": ["preprint"]
+      },
+      "authority": {
+        "kind": "authoritative-domain",
+        "canonicalFor": ["bioRxiv and medRxiv posting metadata", "preprint version and published-article link"]
+      },
+      "access": {
+        "interfaces": ["rest", "bulk-snapshot"],
+        "documentationUrl": "https://api.biorxiv.org/details/medrxiv/help",
+        "authentication": "none",
+        "rateLimit": "Public API is paged in groups of 100; clients should remain bounded and courteous.",
+        "incremental": "cursor",
+        "webhook": false,
+        "mvpMode": "fixture-only-policy-hold"
+      },
+      "freshness": {
+        "upstreamCadence": "Date-range and recent-item API views expose posted records and versions.",
+        "expectedLag": "Published-journal links can appear after publication and should be treated as later observations.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "Metadata API access is public; each manuscript has an author-selected content licence.",
+        "redistribution": "Metadata may be indexed with attribution; rehosting full text is outside this module and requires item-specific review.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://www.biorxiv.org/tdm",
+        "commercialReview": "required"
+      },
+      "identifiers": ["DOI", "bioRxiv or medRxiv version"],
+      "officialUrls": ["https://api.biorxiv.org/details/medrxiv/help", "https://www.biorxiv.org/tdm", "https://www.biorxiv.org/about-biorxiv"],
+      "risks": ["Screening is not peer review.", "Content licences vary by item.", "Published-article relations may lag or remain absent."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "clinicaltrials-gov",
+      "name": "ClinicalTrials.gov",
+      "tier": "core",
+      "role": "trial-registry",
+      "coverage": {
+        "geography": "International study registrations submitted to the United States registry.",
+        "disciplines": ["clinical research", "health sciences", "medicine"],
+        "recordTypes": ["trial"]
+      },
+      "authority": {
+        "kind": "canonical",
+        "canonicalFor": ["NCT identifier", "submitted ClinicalTrials.gov registration and results metadata"]
+      },
+      "access": {
+        "interfaces": ["rest", "bulk-snapshot"],
+        "documentationUrl": "https://clinicaltrials.gov/data-api/api",
+        "authentication": "none",
+        "rateLimit": "Public API v2; this module caps one explicit poll at three pages and 300 metadata records.",
+        "incremental": "cursor",
+        "webhook": false,
+        "mvpMode": "fixture-only-policy-hold"
+      },
+      "freshness": {
+        "upstreamCadence": "Data generally refreshes Monday through Friday around 09:00 US Eastern time.",
+        "expectedLag": "Registry processing and sponsor updates can lag real-world study events.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "Registry data is publicly available with required attribution/currentness practices and third-party caveats.",
+        "redistribution": "Derived metadata must identify ClinicalTrials.gov, processing date, and modifications; third-party material may have separate rights.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://clinicaltrials.gov/about-site/terms-conditions",
+        "commercialReview": "recommended"
+      },
+      "identifiers": ["NCT ID", "secondary trial registry IDs", "DOI when supplied"],
+      "officialUrls": ["https://clinicaltrials.gov/data-api/api", "https://clinicaltrials.gov/data-api/about-api/api-migration", "https://clinicaltrials.gov/about-site/terms-conditions"],
+      "risks": ["Live polling is disabled in 0.1 until the zone-less source processing timestamp and modification disclosure are modeled without inventing UTC.", "Sponsor or investigator submission is not a quality endorsement.", "A registration is not a positive result.", "Duplicate registrations across registries need explicit identifier links."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "crossref",
+      "name": "Crossref",
+      "tier": "core",
+      "role": "pid-registry",
+      "coverage": {
+        "geography": "Global member-deposited scholarly metadata.",
+        "disciplines": ["multidisciplinary"],
+        "recordTypes": ["publication", "preprint", "dataset", "software"]
+      },
+      "authority": {
+        "kind": "canonical",
+        "canonicalFor": ["Crossref DOI registration metadata", "member-deposited work relations and updates"]
+      },
+      "access": {
+        "interfaces": ["rest", "bulk-snapshot"],
+        "documentationUrl": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+        "authentication": "none",
+        "rateLimit": "The current Crossref polite list pool reports three requests per second, aggregated by identified email; follow returned headers because limits can change.",
+        "incremental": "date-filter",
+        "webhook": false,
+        "mvpMode": "fixture-and-explicit-poll"
+      },
+      "freshness": {
+        "upstreamCadence": "REST index-date filters support fine-grained incremental polling; the public full file is annual and paid snapshots are monthly.",
+        "expectedLag": "Deposits and later corrections arrive on publisher schedules; polling must overlap and deduplicate.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "Most bibliographic fields are factual and openly retrievable; abstracts and some deposited fields may remain copyrighted.",
+        "redistribution": "Republish normalized facts with attribution and retain field provenance; do not assume abstracts are reusable.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+        "commercialReview": "recommended"
+      },
+      "identifiers": ["DOI", "ORCID", "ROR", "funder ID", "award number"],
+      "officialUrls": ["https://www.crossref.org/documentation/retrieve-metadata/rest-api/", "https://www.crossref.org/documentation/retrieve-metadata/bulk-downloads/", "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/"],
+      "risks": ["Metadata completeness depends on member deposits.", "Abstract, reference, affiliation, funding, and relation coverage is uneven.", "There is no webhook; incremental clients need overlap and replay."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "crossref-integrity",
+      "name": "Crossref updates and Retraction Watch",
+      "tier": "integrity",
+      "role": "integrity-feed",
+      "coverage": {
+        "geography": "Global Crossref update relations plus Retraction Watch records distributed through Crossref.",
+        "disciplines": ["multidisciplinary"],
+        "recordTypes": ["status-update"]
+      },
+      "authority": {
+        "kind": "derived-integrity",
+        "canonicalFor": ["Crossref-deposited update relation", "Retraction Watch status record as distributed by Crossref"]
+      },
+      "access": {
+        "interfaces": ["rest", "daily-files"],
+        "documentationUrl": "https://www.crossref.org/documentation/retrieve-metadata/retraction-watch/",
+        "authentication": "none",
+        "rateLimit": "The current Crossref polite list pool reports three requests per second, aggregated by identified email; follow returned headers because limits can change.",
+        "incremental": "date-filter",
+        "webhook": false,
+        "mvpMode": "fixture-and-explicit-poll"
+      },
+      "freshness": {
+        "upstreamCadence": "Retraction Watch data is updated each working day; publisher-deposited Crossmark updates arrive on publisher schedules.",
+        "expectedLag": "Notices can lag the underlying event and coverage is not complete.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "The Retraction Watch database distributed by Crossref is CC0; Crossref requests citation when it is used in published work.",
+        "redistribution": "Freely reusable as CC0; preserve notice type, date, target, source, record ID, and requested citation. Linked content rights remain separate.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/retraction-watch/",
+        "commercialReview": "recommended"
+      },
+      "identifiers": ["DOI", "Crossref update type", "Retraction Watch record relation"],
+      "officialUrls": ["https://www.crossref.org/documentation/retrieve-metadata/retraction-watch/", "https://www.crossref.org/services/crossmark/", "https://www.crossref.org/documentation/crossmark/participating-in-crossmark/"],
+      "risks": ["Correction and retraction coverage remains incomplete.", "The same assertion may appear from publisher and retraction-watch sources and must not be silently collapsed.", "Status must be modeled as sourced, dated evidence rather than a permanent boolean verdict."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "datacite",
+      "name": "DataCite",
+      "tier": "core",
+      "role": "pid-registry",
+      "coverage": {
+        "geography": "Global repository-deposited research objects.",
+        "disciplines": ["multidisciplinary"],
+        "recordTypes": ["publication", "preprint", "dataset", "software"]
+      },
+      "authority": {
+        "kind": "canonical",
+        "canonicalFor": ["DataCite DOI registration metadata", "related research object identifiers"]
+      },
+      "access": {
+        "interfaces": ["rest", "oai-pmh", "bulk-snapshot"],
+        "documentationUrl": "https://support.datacite.org/docs/harvesting-datacite-doi-metadata",
+        "authentication": "none",
+        "rateLimit": "Anonymous REST clients receive 500 requests per five minutes; identified and authenticated tiers are higher.",
+        "incremental": "cursor",
+        "webhook": false,
+        "mvpMode": "fixture-and-explicit-poll"
+      },
+      "freshness": {
+        "upstreamCadence": "REST and OAI-PMH expose current metadata; the public full dump is annual and member snapshots are monthly. This MVP's bounded live query selects records by created time only.",
+        "expectedLag": "Created-record discovery can miss later metadata updates; updates depend on repository deposits and their metadata practices.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "DataCite DOI metadata is released under CC0.",
+        "redistribution": "Metadata can be redistributed; each linked dataset, software object, or document retains its own rights.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://support.datacite.org/docs/datacite-data-file-use-policy",
+        "commercialReview": "not-required"
+      },
+      "identifiers": ["DOI", "ORCID", "ROR", "funder ID", "award ID", "related identifier"],
+      "officialUrls": ["https://support.datacite.org/docs/rest-api", "https://support.datacite.org/docs/datacite-oai-pmh", "https://support.datacite.org/docs/datacite-public-data-file", "https://support.datacite.org/docs/datacite-data-file-use-policy", "https://support.datacite.org/docs/rate-limit"],
+      "risks": ["Depositor metadata quality and resource types vary.", "Duplicate and version relations require explicit handling.", "Metadata CC0 does not grant rights to the identified object."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "europe-pmc",
+      "name": "Europe PMC",
+      "tier": "enrichment",
+      "role": "domain-index",
+      "coverage": {
+        "geography": "Global life-science literature, preprints, grants, citations, data links, and text-mined annotations.",
+        "disciplines": ["biology", "health sciences", "medicine"],
+        "recordTypes": ["publication", "preprint"]
+      },
+      "authority": {
+        "kind": "aggregated",
+        "canonicalFor": ["Europe PMC record identifier and aggregation state"]
+      },
+      "access": {
+        "interfaces": ["rest", "oai-pmh", "bulk-snapshot"],
+        "documentationUrl": "https://europepmc.org/RestfulWebService",
+        "authentication": "none",
+        "rateLimit": "Public REST is cursor-paged; this module caps explicit polls below the service page maximum.",
+        "incremental": "cursor",
+        "webhook": false,
+        "mvpMode": "fixture-and-explicit-poll"
+      },
+      "freshness": {
+        "upstreamCadence": "Search APIs expose current indexed records; selected metadata and open-content bulk files update weekly.",
+        "expectedLag": "Aggregation, citation, text-mining, and publication-link updates can trail primary registries.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "EMBL-EBI imposes no additional restriction on supplied data beyond rights held by original data owners; public queryability is not itself a reuse grant.",
+        "redistribution": "Attribute Europe PMC and EMBL-EBI, comply with original-owner rights, and accept responsibility for third-party permissions. This module republishes selected normalized metadata only and no full text.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://www.ebi.ac.uk/about/terms-of-use/",
+        "commercialReview": "recommended"
+      },
+      "identifiers": ["PMID", "PMCID", "DOI", "Europe PMC source identifier", "grant ID"],
+      "officialUrls": ["https://europepmc.org/RestfulWebService", "https://europepmc.org/developers", "https://www.ebi.ac.uk/about/terms-of-use/"],
+      "risks": ["Coverage is concentrated in life sciences.", "Aggregation and derived citation/entity links can lag.", "Full-text rights differ by record."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "openalex",
+      "name": "OpenAlex",
+      "tier": "enrichment",
+      "role": "research-graph",
+      "coverage": {
+        "geography": "Broad global graph spanning works, authors, institutions, sources, topics, publishers, and funders.",
+        "disciplines": ["multidisciplinary"],
+        "recordTypes": ["publication", "preprint", "dataset", "software"]
+      },
+      "authority": {
+        "kind": "aggregated",
+        "canonicalFor": ["OpenAlex entity identifier and graph assertions"]
+      },
+      "access": {
+        "interfaces": ["rest", "bulk-snapshot"],
+        "documentationUrl": "https://help.openalex.org/api/authentication",
+        "authentication": "optional-free-api-key",
+        "rateLimit": "Casual basic queries may be keyless; a free key raises the daily budget. List calls have a hard per_page maximum of 100 and cursor paging uses meta.next_cursor.",
+        "incremental": "cursor",
+        "webhook": false,
+        "mvpMode": "fixture-and-explicit-poll"
+      },
+      "freshness": {
+        "upstreamCadence": "The public API supports bounded discovery queries. True from_updated_date/from_created_date synchronization filters and daily changefiles require paid access.",
+        "expectedLag": "The MVP uses free from_publication_date discovery, not paid update synchronization; later metadata changes can therefore be missed unless another source reports them.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "OpenAlex metadata is released under CC0.",
+        "redistribution": "Graph metadata can be redistributed; linked abstracts and content may carry upstream rights and are not ingested here.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://help.openalex.org/api",
+        "commercialReview": "not-required"
+      },
+      "identifiers": ["OpenAlex ID", "DOI", "PMID", "PMCID", "arXiv ID", "ORCID", "ROR"],
+      "officialUrls": ["https://help.openalex.org/api", "https://help.openalex.org/api/authentication", "https://help.openalex.org/api/paging"],
+      "risks": ["Author, topic, citation, and deduplication assertions are algorithmic rather than canonical.", "Free publication-date polling is discovery, not a complete update feed.", "Do not send a free key with paid-only synchronization filters or describe it as a paid entitlement."]
+    },
+    {
+      "schema": "kingdom.research-source/0.1",
+      "id": "pubmed-pmc",
+      "name": "PubMed and PubMed Central",
+      "tier": "core",
+      "role": "domain-index",
+      "coverage": {
+        "geography": "Global biomedical and life-science citations; PMC adds an archive of participating full-text works.",
+        "disciplines": ["biology", "health sciences", "medicine"],
+        "recordTypes": ["publication", "preprint", "status-update"]
+      },
+      "authority": {
+        "kind": "authoritative-domain",
+        "canonicalFor": ["PMID", "PMCID", "NLM-linked correction and retraction status"]
+      },
+      "access": {
+        "interfaces": ["rest", "oai-pmh", "daily-files", "bulk-snapshot"],
+        "documentationUrl": "https://pubmed.ncbi.nlm.nih.gov/download/",
+        "authentication": "none",
+        "rateLimit": "E-utilities permits about three requests per second without a key and ten with a key; bulk daily update files are preferred for complete deltas.",
+        "incremental": "daily-files",
+        "webhook": false,
+        "mvpMode": "fixture-only-policy-hold"
+      },
+      "freshness": {
+        "upstreamCadence": "PubMed publishes an annual XML baseline and daily new, revised, and deleted citation files.",
+        "expectedLag": "Publisher deposits, MeSH indexing, and linked corrections may arrive after first citation publication.",
+        "observedOn": "2026-08-20"
+      },
+      "rights": {
+        "metadataClaim": "NLM database records are downloadable under NLM terms; source-supplied material can retain separate rights.",
+        "redistribution": "Attribute NLM, preserve update dates, and label stale or modified data; PMC full text is outside this MVP.",
+        "fullTextPolicy": "not-ingested",
+        "evidenceUrl": "https://www.nlm.nih.gov/databases/download/terms_and_conditions.html",
+        "commercialReview": "recommended"
+      },
+      "identifiers": ["PMID", "PMCID", "DOI", "ORCID", "grant ID", "data accession"],
+      "officialUrls": ["https://pubmed.ncbi.nlm.nih.gov/download/", "https://pmc.ncbi.nlm.nih.gov/tools/oai/", "https://www.ncbi.nlm.nih.gov/home/develop/api/", "https://www.nlm.nih.gov/bsd/policy/errata.html"],
+      "risks": ["Coverage is biomedical rather than all-discipline.", "Indexing and publisher corrections can lag.", "Full-text reuse rights are separate from citation metadata."]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "effects": {
+    "artifactExecutions": 0,
+    "fullTextRequests": 0,
+    "networkRequests": 1,
+    "persistentWrites": 0
+  },
+  "limits": {
+    "bytesPerPage": 1048576,
+    "itemsPerPage": 5,
+    "pages": 1,
+    "requestMilliseconds": 10000,
+    "totalMilliseconds": 25000
+  },
+  "nextCursor": "kr1.eyJiaW5kaW5nIjp7Iml0ZW1zIjo1LCJxdWVyeU1vZGUiOiJyZXZpZXdlZC10ZXJtcy1pbmRleC1kZWx0YSIsInNvdXJjZUlkIjoiY3Jvc3NyZWYiLCJ0ZXJtc1JlY2VpcHQiOiJzaGEyNTY6M2NjMWFjYzRhZjJlNWJkZTBkZmNmZGRjOTExYTFhNjE4Yjg5OGY3OWM2OWJjMmQ5OWM4YjNhZDZkZTY0NDY0OCIsIndhdGNobGlzdElkIjoiaW50ZXJwcmV0YWJsZS1yZWFzb25pbmciLCJ3YXRlcm1hcmsiOiIyMDI2LTA4LTAxVDAwOjAwOjAwWiJ9LCJoaWdoV2F0ZXJtYXJrIjoiMjAyNi0wOC0xOVQyMDowMjo0NVoiLCJwcm92aWRlckN1cnNvciI6IkRuRjFaWEo1VkdobGJrWmxkR05vSkFBQUFBQnI4ZDl6RmpKTFJXMDFRblZ5VkV4TFNHeEJXbXB4YnpOUllYY0FBQUFCdGt6ZTBSWlNVeTFtTkhscFZsRTRhWEZST0c4eFJFZHFkMlJSQUFBQUFhSTVBUm9XVm1Wbk9XeFhPWFJVU0ZOcFpVZ3RORFZFZDI4eFp3QUFBQUFwOGt4a0ZubFZNalpPTVd4TFVVaHhNWHBpZEZFMlowUlFZbWNBQUFBQUtaYlN6QlpaWDJabFFtSjFhVkZoZFdweWJFOVlWVFpLVFZWQkFBQUFBYUR0TThNV1FXaFNlWGN6U0ZoVU5XVlBkVlZaTUMxWlozUkZad0FBQUFBcGx0TE5GbGxmWm1WQ1luVnBVV0YxYW5Kc1QxaFZOa3BOVlVFQUFBQUFLa182WlJaMmEyMU1RV1pLYWxGd1MwUmhRMmRNU0dOaVMwdG5BQUFBQUNtcUJwd1daMmRwWlVJM2RYZFVhM0UzYnpscmRrdG1WVXRhWndBQUFBR2RxOWFfRmtOVGNFRk1RWEJxVWxvdFMyTlZSMlUxWm5CcGVXY0FBQUFBS2FvR25SWm5aMmxsUWpkMWQxUnJjVGR2T1d0MlMyWlZTMXBuQUFBQUFDbGdfbk1XYmsxUllVbHlORWxUZEdFek5WUm1ZMDVXYUhrNVp3QUFBQUFwMDlnRUZsSjZMVGQzUVZGT1VqSnBhRkExVkVkNUxYaDRRa0VBQUFBQUtXRC1kQlp1VFZGaFNYSTBTVk4wWVRNMVZHWmpUbFpvZVRsbkFBQUFBSXdFR1FvV2RqWlpObk5MYUdkVFZrdG9hekkyTldZMU1VNUJkd0FBQUFBREZETHpGazlhWWtwNFFuRkdVMmRUTFd4bmFrcDNSM2RNYzNjQUFBQUJsMzNKZWhaMWRsSktNemxyUlZOcU1qWnVjRFkzUzBsVVoxbG5BQUFBQUNzLUV5OFdaVWhuZUdSVU16WlNjMkZzWDFkaWNuTXRTMnh0VVFBQUFBR2c3VFBFRmtGb1VubDNNMGhZVkRWbFQzVlZXVEF0V1dkMFJXY0FBQUFBS3hFR1RSWmtNV1p4UVhSUlRWSlZUMUpWUkZoaldXRmhhR3AzQUFBQUFaY0swdEVXVFdwa2MxUnZUbEJUTVVkUWVHRkhVVkpHTFRnd1p3QUFBQUd2X3dlYkZsTjJORmt6VDBFelUwaFBhbXN4WlV4clJISldRbmNBQUFBQUhDamVnUlp2UVZoVmVWaFhTRlJ2TW1wM0xXNXJhbGd6WlhKUkFBQUFBQ29lMU9NV2VraHZMV1IwU0dOUmRYbHhXazlvTWtsNlIwdHNRUUFBQUFHZHE5YkFGa05UY0VGTVFYQnFVbG90UzJOVlIyVTFabkJwZVdjQUFBQUJyXzhIa3haVGRqUlpNMDlCTTFOSVQycHJNV1ZNYTBSeVZrSjNBQUFBQVpkOXlYc1dkWFpTU2pNNWEwVlRhakkyYm5BMk4wdEpWR2RaWndBQUFBQXBrNGRRRmw5UGR5MWZWa28xVTBOaE4xSmhOekozVmkxb2JFRUFBQUFCbEZsay1oWlZkVk51UTJSU2RsTmlTMFZWYmpZM2JHbFljVnBCQUFBQUFDbVRoMUVXWDA5M0xWOVdTalZUUTJFM1VtRTNNbmRXTFdoc1FRQUFBQUdVV1dUN0ZsVjFVMjVEWkZKMlUySkxSVlZ1Tmpkc2FWaHhXa0VBQUFBQWpMVjJCUlpSTFc5UVRFcEhSRkk0UjJNd1JqaDVjVlZHZW1sQkFBQUFBQ25UMkFVV1Vub3ROM2RCVVU1U01tbG9VRFZVUjNrdGVIaENRUUFBQUFHaU9RRWJGbFpsWnpsc1Z6bDBWRWhUYVdWSUxUUTFSSGR2TVdjQUFBQUFLZkpNWlJaNVZUSTJUakZzUzFGSWNURjZZblJSTm1kRVVHSm5BQUFBQVpjSzBzNFdUV3BrYzFSdlRsQlRNVWRRZUdGSFVWSkdMVGd3Wnc9PSIsInYiOjF9",
+  "nonClaims": {
+    "adopted": false,
+    "evaluated": false,
+    "guestAdmitted": false,
+    "moduleCreated": false,
+    "useAuthorized": false
+  },
+  "observations": [
+    {
+      "authors": [
+        {
+          "name": "Denis Sutter",
+          "orcid": null
+        },
+        {
+          "name": "Julian Minder",
+          "orcid": null
+        },
+        {
+          "name": "Thomas Hofmann",
+          "orcid": null
+        },
+        {
+          "name": "Tiago Pimentel",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.52202/085713-5000",
+      "id": "observation:crossref:3c987dfc1571681f",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.52202/085713-5000"
+        }
+      ],
+      "inert": true,
+      "itemLicense": null,
+      "language": null,
+      "observedAt": "2026-08-20T18:06:56Z",
+      "payloadBytes": 8333,
+      "payloadReceipt": "sha256:b265b9235163d22837fedcd7237669160bc7f02b5709546b1f7812840611a7cb",
+      "publishedOn": "2025-01-01",
+      "recordType": "publication",
+      "relations": [],
+      "reviewState": "unknown",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.52202/085713-5000",
+      "sourceStatus": "proceedings-article",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?",
+      "upstreamCreatedAt": "2026-08-06T14:44:29Z",
+      "upstreamUpdatedAt": "2026-08-06T17:12:23Z",
+      "version": "proceedings-article"
+    },
+    {
+      "authors": [
+        {
+          "name": "Dip Roy",
+          "orcid": null
+        }
+      ],
+      "canonicalUrl": "https://doi.org/10.21203/rs.3.rs-6599791/v1",
+      "id": "observation:crossref:9d9767af45efe7de",
+      "identifiers": [
+        {
+          "scheme": "doi",
+          "value": "10.21203/rs.3.rs-6599791/v1"
+        }
+      ],
+      "inert": true,
+      "itemLicense": "https://creativecommons.org/licenses/by/4.0/",
+      "language": null,
+      "observedAt": "2026-08-20T18:06:56Z",
+      "payloadBytes": 8333,
+      "payloadReceipt": "sha256:b265b9235163d22837fedcd7237669160bc7f02b5709546b1f7812840611a7cb",
+      "publishedOn": "2025-05-07",
+      "recordType": "preprint",
+      "relations": [],
+      "reviewState": "preprint",
+      "schema": "kingdom.research-observation/0.1",
+      "sourceId": "crossref",
+      "sourceRecordId": "10.21203/rs.3.rs-6599791/v1",
+      "sourceStatus": "posted-content",
+      "status": "active",
+      "subjects": [],
+      "synthetic": false,
+      "title": "Causal Intervention Framework for Variational Auto Encoder Mechanistic Interpretability",
+      "upstreamCreatedAt": "2025-05-07T10:29:27Z",
+      "upstreamUpdatedAt": "2026-08-01T17:00:56Z",
+      "version": "posted-content"
+    }
+  ],
+  "observedAt": "2026-08-20T18:06:56Z",
+  "queryProvenance": {
+    "callerSuppliedQuery": false,
+    "cursorProtocol": "kingdom-bound-continuation-v1",
+    "cursorReceipt": null,
+    "cursorSupplied": false,
+    "itemsPerPage": 5,
+    "queryMode": "reviewed-terms-index-delta",
+    "queryReceipt": "sha256:7b72ad502bd7ae2c894ce971c17c67e9c12e0294d730cf5e06123f823409bfae",
+    "rawUrlAccepted": false,
+    "terms": [
+      "activation steering",
+      "causal tracing",
+      "circuit tracing",
+      "interpretable reasoning",
+      "J-space",
+      "Jacobian lens",
+      "mechanistic interpretability",
+      "representation engineering",
+      "sparse autoencoder"
+    ],
+    "watchlistId": "interpretable-reasoning",
+    "watermark": "2026-08-01T00:00:00Z"
+  },
+  "schema": "kingdom.research-poll-result/0.1",
+  "sourceId": "crossref",
+  "sourceProcessing": {
+    "modificationDescription": "Normalized selected metadata fields, identifiers, dates, relations, and status only; field names and ordering changed; full text and executable artifacts were omitted.",
+    "upstreamDataTimestamp": null
+  },
+  "sourceRights": {
+    "commercialReview": "recommended",
+    "evidenceUrl": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "fullTextPolicy": "not-ingested",
+    "metadataClaim": "Most bibliographic fields are factual and openly retrievable; abstracts and some deposited fields may remain copyrighted.",
+    "redistribution": "Republish normalized facts with attribution and retain field provenance; do not assume abstracts are reusable."
+  },
+  "usage": {
+    "bytesReceived": 8333,
+    "itemsReceived": 2,
+    "pagesFetched": 1
+  },
+  "watermarkAfter": "2026-08-01T00:00:00Z",
+  "watermarkBefore": "2026-08-01T00:00:00Z",
+  "watermarkKind": "index-time"
+}
